@@ -1,1 +1,8 @@
-{}
+{
+  "/page": "app/page.js",
+  "/blog-news/[slug]/page": "app/blog-news/[slug]/page.js",
+  "/blog-news/page": "app/blog-news/page.js",
+  "/services/page": "app/services/page.js",
+  "/services/hvac-systems/page": "app/services/hvac-systems/page.js",
+  "/products/page": "app/products/page.js"
+}

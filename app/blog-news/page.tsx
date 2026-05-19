@@ -4,64 +4,14 @@ import PageHero from "@/components/ui/PageHero";
 import Link from "next/link";
 import { Calendar, ArrowRight, Clock } from "lucide-react";
 import type { Metadata } from "next";
+import { posts, categories } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Blog & News | Equipro Investments — HVAC & Refrigeration Insights",
   description: "Technical articles, industry news and project updates from the Equipro engineering team in Nairobi, Kenya.",
 };
 
-const posts = [
-  {
-    title: "Natural Refrigerants: NH3 & CO2 — The Future of Industrial Cooling",
-    slug: "natural-refrigerants-nh3-co2",
-    excerpt: "Ammonia (R-717) and CO2 (R-744) offer zero ozone depletion potential, near-zero global warming potential, and superior thermodynamic efficiency. We explore why natural refrigerants are the smart choice for new industrial refrigeration projects.",
-    date: "15 March 2024", category: "Technology", readTime: "7 min read",
-    image: "/images/ammonia.jpg",
-    featured: true,
-  },
-  {
-    title: "Turnkey Cold Storage: From Project Design to Commissioning",
-    slug: "turnkey-cold-storage-design-commissioning",
-    excerpt: "Equipro has built a strong reputation delivering successful turnkey refrigeration projects. We walk through the full project lifecycle — from initial energy and capacity analysis through to commissioning and handover.",
-    date: "20 January 2024", category: "Projects", readTime: "6 min read",
-    image: "/images/co2-nh3-cascade.jpg",
-    featured: false,
-  },
-  {
-    title: "Floor Heating for Cold Storage — Preventing Structural Damage",
-    slug: "floor-heating-cold-storage",
-    excerpt: "Floor heating systems prevent floors from freezing and icing in cold storage facilities. We explain the technology, types (wired and mat systems), installation process and maintenance requirements.",
-    date: "5 November 2023", category: "Products", readTime: "5 min read",
-    image: "/images/floor-heating.png",
-    featured: false,
-  },
-  {
-    title: "PLC & Automation: Smarter Control for Industrial Refrigeration",
-    slug: "plc-automation-refrigeration",
-    excerpt: "PLC and SCADA systems provide instant monitoring of all measurable parameters in a refrigeration system. We explain how automation improves efficiency, safety and uptime for cold storage operators.",
-    date: "18 September 2023", category: "Technology", readTime: "8 min read",
-    image: "/images/glycol.jpg",
-    featured: false,
-  },
-  {
-    title: "Ammonia (NH3) Refrigeration: Advantages & Safety Considerations",
-    slug: "ammonia-refrigeration-advantages",
-    excerpt: "Ammonia has been used as a refrigerant for over 100 years. Classified under ASHRAE as R-717, it has ODP and GWP ratings of zero. We explore its thermodynamic advantages and the safety systems required for compliant operation.",
-    date: "4 July 2023", category: "Industry", readTime: "9 min read",
-    image: "/images/co2.jpg",
-    featured: false,
-  },
-  {
-    title: "HACCP Compliance in Cold Storage Facility Design",
-    slug: "haccp-compliance-cold-storage",
-    excerpt: "HACCP (Hazard Analysis and Critical Control Points) quality assurance is a cornerstone of food safety in cold storage operations. We explain how Equipro integrates HACCP requirements into refrigeration system design, installation and commissioning.",
-    date: "12 April 2023", category: "Industry", readTime: "6 min read",
-    image: "/images/fgas.jpg",
-    featured: false,
-  },
-];
-
-const categories = ["All", "Technology", "Projects", "Products", "Industry"];
+// posts and categories are imported from lib/posts
 
 export default function BlogPage() {
   const [featured, ...rest] = posts;
