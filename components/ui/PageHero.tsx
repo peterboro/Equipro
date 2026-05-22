@@ -10,13 +10,13 @@ interface PageHeroProps {
 }
 
 export default function PageHero({ title, subtitle, breadcrumbs, image }: PageHeroProps) {
-  const bg = image || "/images/cooling-technologies-bg.jpg";
+  const bg = image || "/images/gallery/equipro-project-56.jpg";
   return (
     <section className="relative h-[260px] md:h-[320px] flex items-center overflow-hidden">
       <img src={bg} alt={title} className="absolute inset-0 w-full h-full object-cover object-center" loading="eager" />
-      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, rgba(8,18,50,0.92) 0%, rgba(13,37,97,0.78) 60%, rgba(8,18,50,0.65) 100%)" }} />
-      {/* Red accent */}
-      <div className="absolute top-0 right-0 w-1/4 h-full" style={{ background: "linear-gradient(to left, rgba(200,16,46,0.12), transparent)" }} />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(105deg, rgba(5,5,5,0.72) 0%, rgba(17,24,39,0.55) 46%, rgba(17,24,39,0.22) 100%)" }} />
+      {/* Light-blue accent */}
+      <div className="absolute top-0 right-0 w-1/4 h-full" style={{ background: "linear-gradient(to left, rgba(85,183,229,0.12), transparent)" }} />
       <div className="absolute inset-0 opacity-[0.04]" style={{
         backgroundImage: "linear-gradient(rgba(255,255,255,.7) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.7) 1px,transparent 1px)",
         backgroundSize: "60px 60px"

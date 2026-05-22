@@ -6,8 +6,8 @@ export default function Page() {
     title="Remote Monitoring & Control"
     subtitle="Real-time visibility and control of your refrigeration and HVAC systems from anywhere, at any time."
     breadcrumbLabel="Remote Monitoring & Control"
-    heroImage="/images/co2.jpg"
-    sideImage="/images/glycol.jpg"
+    heroImage="/images/gallery/equipro-project-58.jpg"
+    sideImage="/images/gallery/equipro-project-14.jpg"
     icon="📡"
     intro="Equipro's remote monitoring and control systems give you and our engineering team instant, real-time visibility of your refrigeration and HVAC plant — enabling faster response to alarms, proactive fault detection and energy optimisation without the need for an on-site visit."
     body={[

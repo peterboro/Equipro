@@ -4,6 +4,7 @@ import Products from "@/components/Products";
 import About from "@/components/About";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
+import Gallery from "@/components/Gallery";
 import Clients from "@/components/Clients";
 import Blog from "@/components/Blog";
 import CTA from "@/components/CTA";
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <Services />
         <WhyUs />
+        <Gallery />
         <Clients />
         <Blog />
         <CTA />

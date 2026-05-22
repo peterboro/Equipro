@@ -23,7 +23,7 @@ const serviceLinks = [
 
 export default function Footer() {
   return (
-    <footer style={{ background: "#060e27" }} className="text-gray-300">
+    <footer style={{ background: "#050505" }} className="text-gray-300">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
 
@@ -45,14 +45,14 @@ export default function Footer() {
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
               HVAC, industrial refrigeration, facility maintenance, mechanical & electrical services — Nairobi, Kenya.
             </p>
-            <div className="space-y-1 text-xs text-gray-500 mb-5 border-l-2 pl-3" style={{ borderColor: "#c8102e" }}>
+            <div className="space-y-1 text-xs text-gray-500 mb-5 border-l-2 pl-3" style={{ borderColor: "#55b7e5" }}>
               <p>NCA: Refrigeration & Electrical — Grade 5</p>
             </div>
             <div className="flex gap-3">
               {[Facebook, Linkedin, Twitter].map((Icon, i) => (
                 <a key={i} href="#" className="w-9 h-9 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
                   style={{ background: "rgba(255,255,255,0.08)" }}
-                  onMouseEnter={e => (e.currentTarget.style.background = "#c8102e")}
+                  onMouseEnter={e => (e.currentTarget.style.background = "#55b7e5")}
                   onMouseLeave={e => (e.currentTarget.style.background = "rgba(255,255,255,0.08)")}>
                   <Icon size={15} />
                 </a>
@@ -70,7 +70,7 @@ export default function Footer() {
               {quickLinks.map((l) => (
                 <li key={l.label}>
                   <Link href={l.href} className="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2 group">
-                    <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" style={{ background: "#c8102e" }} />
+                    <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" style={{ background: "#55b7e5" }} />
                     {l.label}
                   </Link>
                 </li>
@@ -88,7 +88,7 @@ export default function Footer() {
               {serviceLinks.map((l) => (
                 <li key={l.label}>
                   <Link href={l.href} className="text-gray-400 hover:text-white text-sm transition-colors flex items-center gap-2 group">
-                    <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" style={{ background: "#c8102e" }} />
+                    <span className="w-1.5 h-1.5 rounded-full flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" style={{ background: "#55b7e5" }} />
                     {l.label}
                   </Link>
                 </li>
@@ -104,28 +104,28 @@ export default function Footer() {
             </h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm text-gray-400">
-                <MapPin size={15} className="flex-shrink-0 mt-0.5" style={{ color: "#c8102e" }} />
+                <MapPin size={15} className="flex-shrink-0 mt-0.5" style={{ color: "#55b7e5" }} />
                 Avon Center, Enterprise Road,<br />P.O. Box 12636-00400,<br />Nairobi, Kenya
               </li>
               <li>
                 <a href="tel:+254722101946" className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <Phone size={14} style={{ color: "#c8102e", flexShrink: 0 }} /> 0722-101946
+                  <Phone size={14} style={{ color: "#55b7e5", flexShrink: 0 }} /> 0722-101946
                 </a>
               </li>
               <li>
                 <a href="tel:+254722514226" className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <Phone size={14} style={{ color: "#c8102e", flexShrink: 0 }} /> 0722-514226
+                  <Phone size={14} style={{ color: "#55b7e5", flexShrink: 0 }} /> 0722-514226
                 </a>
               </li>
               <li>
                 <a href="mailto:Info@equiprogroup.com" className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <Mail size={14} style={{ color: "#c8102e", flexShrink: 0 }} /> Info@equiprogroup.com
+                  <Mail size={14} style={{ color: "#55b7e5", flexShrink: 0 }} /> Info@equiprogroup.com
                 </a>
               </li>
               <li>
                 <a href="https://www.equiprogroup.com" target="_blank" rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <span style={{ color: "#c8102e", fontSize: 14, flexShrink: 0 }}>🌐</span> www.equiprogroup.com
+                  <span style={{ color: "#55b7e5", fontSize: 14, flexShrink: 0 }}>🌐</span> www.equiprogroup.com
                 </a>
               </li>
             </ul>

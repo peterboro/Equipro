@@ -6,7 +6,7 @@ export default function Page() {
     title="Cold Room Equipment"
     subtitle="Insulated panels, access doors and floor heating systems for complete cold storage facility construction."
     breadcrumbLabel="Cold Room Equipment"
-    heroImage="/images/site-cold-room-interior.jpg"
+    heroImage="/images/gallery/equipro-project-52.jpg"
     icon="🏗️"
     intro="Equipro supplies and installs the full range of cold room construction materials — insulated sandwich panels, access doors and floor heating systems. Whether constructing a new facility or expanding an existing one, we have the products and expertise to deliver."
     body={[
@@ -35,8 +35,8 @@ export default function Page() {
       { label: "Certification", value: "CE Mark EN 14509 / ISO 9001" },
     ]}
     images={[
-      "/images/floor-heating.png",
-      "/images/freon-refrigeration-system.png",
+      "/images/gallery/equipro-project-10.jpg",
+      "/images/gallery/equipro-project-52.jpg",
     ]}
     variants={[
       { name: "Insulated Panels", desc: "PU/PIR sandwich panels for walls, ceilings and floors. Camlock system for fast assembly. Multiple thicknesses for all temperature ranges from chill to blast freeze." },

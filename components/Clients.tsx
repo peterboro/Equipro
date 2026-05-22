@@ -21,7 +21,7 @@ const clients = [
 
 export default function Clients() {
   return (
-    <section className="py-20 bg-[#f7f9fc]">
+    <section className="py-20 bg-[#f4f6f8]">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           className="text-center mb-14"
@@ -30,12 +30,12 @@ export default function Clients() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="inline-block text-[#c8102e] text-xs font-bold tracking-widest uppercase mb-3">Trusted By</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#0d2561] mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Our Clients</h2>
+          <span className="inline-block text-[#55b7e5] text-xs font-bold tracking-widest uppercase mb-3">Trusted By</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#111827] mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Our Clients</h2>
           <p className="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">
             Reputed organisations across food processing, pharmaceuticals, agriculture, government and cold storage sectors — Kenya and beyond.
           </p>
-          <div className="w-12 h-1 rounded-full mx-auto mt-5" style={{ background: "linear-gradient(90deg, #c8102e, #0d2561)" }} />
+          <div className="w-12 h-1 rounded-full mx-auto mt-5" style={{ background: "linear-gradient(90deg, #55b7e5, #111827)" }} />
         </motion.div>
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
@@ -57,7 +57,7 @@ export default function Clients() {
                   initials={client.initials}
                 />
               </div>
-              <p className="text-[#0d2561] font-semibold text-xs leading-tight mb-1">{client.name}</p>
+              <p className="text-[#111827] font-semibold text-xs leading-tight mb-1">{client.name}</p>
               <p className="text-gray-400 text-[10px]">{client.sector}</p>
             </motion.div>
           ))}
@@ -69,7 +69,7 @@ export default function Clients() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
         >
-          <Link href="/clients" className="inline-flex items-center gap-2 text-[#c8102e] font-semibold text-sm hover:text-[#0d2561] transition-colors">
+          <Link href="/clients" className="inline-flex items-center gap-2 text-[#55b7e5] font-semibold text-sm hover:text-[#111827] transition-colors">
             View All Clients & Projects <ArrowRight size={14} />
           </Link>
         </motion.div>

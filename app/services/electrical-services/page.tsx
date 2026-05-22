@@ -6,8 +6,8 @@ export default function Page() {
     title="Electrical Services"
     subtitle="NCA 5 registered electrical contractor — installations, maintenance and repair for industrial and commercial facilities."
     breadcrumbLabel="Electrical Services"
-    heroImage="/images/co2-nh3-cascade.jpg"
-    sideImage="/images/co2-nh3-cascade.jpg"
+    heroImage="/images/gallery/equipro-project-59.jpg"
+    sideImage="/images/gallery/equipro-project-59.jpg"
     icon="⚡"
     intro="Equipro Investments (K) Ltd is fully registered with NCA as an Electrical contractor at Grade 5. Our qualified electrical engineers deliver safe, compliant and reliable electrical installations and maintenance services across Kenya."
     body={[

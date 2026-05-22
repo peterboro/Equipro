@@ -10,12 +10,12 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          navy: "#0d2561",
-          "navy-dark": "#081232",
-          "navy-light": "#1a3a8c",
-          red: "#c8102e",
-          "red-dark": "#a00d24",
-          "red-light": "#e8455f",
+          navy: "#111827",
+          "navy-dark": "#050505",
+          "navy-light": "#374151",
+          red: "#55b7e5",
+          "red-dark": "#2f9ccc",
+          "red-light": "#8fd4f1",
         },
       },
       fontFamily: {

@@ -6,8 +6,8 @@ export default function Page() {
     title="Packaging Line Services"
     subtitle="Packaging materials, equipment and Videojet inkjet coding systems — supply, installation and maintenance across Kenya."
     breadcrumbLabel="Packaging Line Services"
-    heroImage="/images/freon-refrigeration-system.png"
-    sideImage="/images/floor-heating.png"
+    heroImage="/images/gallery/equipro-project-52.jpg"
+    sideImage="/images/gallery/equipro-project-10.jpg"
     icon="📦"
     intro="Equipro Investments (K) Ltd provides packaging materials, packaging equipment and Videojet inkjet coding systems — supply, installation and maintenance services. We support food processing, pharmaceutical, agricultural and manufacturing companies to keep their production and packaging lines running efficiently and in compliance."
     body={[

@@ -23,6 +23,7 @@ const navLinks = [
     label: "Products", href: "/products",
     children: [
       { label: "Refrigeration Technologies", href: "/products/refrigeration-technologies" },
+      { label: "Freon Gases", href: "/products/freon-gases" },
       { label: "Compressors", href: "/products/compressors" },
       { label: "Condensers", href: "/products/condensers" },
       { label: "Evaporators & Glycol Coolers", href: "/products/evaporators" },
@@ -31,6 +32,7 @@ const navLinks = [
     ],
   },
   { label: "Clients", href: "/clients" },
+  { label: "Gallery", href: "/#gallery" },
   { label: "Blog / News", href: "/blog-news" },
   { label: "Contact", href: "/contact" },
 ];
@@ -49,16 +51,16 @@ export default function Navbar() {
   return (
     <>
       {/* Top Bar */}
-      <div className="bg-[#0d2561] text-white text-xs py-2 hidden md:block">
+      <div className="bg-[#111827] text-white text-xs py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-6">
-            <a href="tel:+254722101946" className="flex items-center gap-1.5 hover:text-red-300 transition-colors">
+            <a href="tel:+254722101946" className="flex items-center gap-1.5 hover:text-sky-200 transition-colors">
               <Phone size={11} /> 0722-101946
             </a>
-            <a href="tel:+254722514226" className="flex items-center gap-1.5 hover:text-red-300 transition-colors">
+            <a href="tel:+254722514226" className="flex items-center gap-1.5 hover:text-sky-200 transition-colors">
               <Phone size={11} /> 0722-514226
             </a>
-            <a href="mailto:Info@equiprogroup.com" className="hover:text-red-300 transition-colors">
+            <a href="mailto:Info@equiprogroup.com" className="hover:text-sky-200 transition-colors">
               Info@equiprogroup.com
             </a>
           </div>
@@ -70,7 +72,7 @@ export default function Navbar() {
       <motion.nav
         className={`sticky top-0 z-50 transition-all duration-300 ${
           scrolled
-            ? "bg-white/97 backdrop-blur-md shadow-lg shadow-blue-900/10"
+            ? "bg-white/97 backdrop-blur-md shadow-lg shadow-slate-900/10"
             : "bg-white border-b border-gray-100"
         }`}
         initial={{ y: -8, opacity: 0 }}
@@ -97,7 +99,7 @@ export default function Navbar() {
               <div key={link.label} className="relative group">
                 <Link
                   href={link.href}
-                  className="flex items-center gap-1 px-3 py-2 text-[13px] font-medium text-gray-600 hover:text-[#0d2561] rounded-lg hover:bg-blue-50 transition-all whitespace-nowrap"
+                  className="flex items-center gap-1 px-3 py-2 text-[13px] font-medium text-gray-600 hover:text-[#111827] rounded-lg hover:bg-sky-50 transition-all whitespace-nowrap"
                 >
                   {link.label}
                   {link.children && (
@@ -106,12 +108,12 @@ export default function Navbar() {
                 </Link>
                 {link.children && (
                   <div className="absolute top-full left-0 pt-2 hidden group-hover:block z-50">
-                    <div className="bg-white rounded-xl shadow-2xl shadow-blue-900/15 border border-gray-100 py-1.5 min-w-[250px]">
+                    <div className="bg-white rounded-xl shadow-2xl shadow-slate-900/15 border border-gray-100 py-1.5 min-w-[250px]">
                       {link.children.map((child) => (
                         <Link
                           key={child.label}
                           href={child.href}
-                          className="block px-4 py-2.5 text-[13px] text-gray-600 hover:text-[#0d2561] hover:bg-blue-50 transition-colors"
+                          className="block px-4 py-2.5 text-[13px] text-gray-600 hover:text-[#111827] hover:bg-sky-50 transition-colors"
                         >
                           {child.label}
                         </Link>
@@ -128,7 +130,7 @@ export default function Navbar() {
             <Link
               href="/contact"
               className="flex items-center gap-2 text-white px-5 py-2.5 rounded-lg text-[13px] font-semibold transition-all duration-200 shadow-md hover:opacity-90"
-              style={{ background: "#c8102e" }}
+              style={{ background: "#55b7e5" }}
             >
               <Phone size={13} /> Get a Quote
             </Link>
@@ -161,7 +163,7 @@ export default function Navbar() {
                       <Link
                         href={link.href}
                         onClick={() => !link.children && setMobileOpen(false)}
-                        className="flex-1 px-3 py-2.5 text-[13px] font-medium text-gray-700 hover:text-[#0d2561] hover:bg-blue-50 rounded-lg transition-colors block"
+                        className="flex-1 px-3 py-2.5 text-[13px] font-medium text-gray-700 hover:text-[#111827] hover:bg-sky-50 rounded-lg transition-colors block"
                       >
                         {link.label}
                       </Link>
@@ -181,7 +183,7 @@ export default function Navbar() {
                             key={child.label}
                             href={child.href}
                             onClick={() => setMobileOpen(false)}
-                            className="block px-3 py-2 text-[12px] text-gray-500 hover:text-[#0d2561] hover:bg-blue-50 rounded-lg transition-colors"
+                            className="block px-3 py-2 text-[12px] text-gray-500 hover:text-[#111827] hover:bg-sky-50 rounded-lg transition-colors"
                           >
                             {child.label}
                           </Link>
@@ -195,7 +197,7 @@ export default function Navbar() {
                     href="/contact"
                     onClick={() => setMobileOpen(false)}
                     className="flex items-center justify-center gap-2 text-white py-3 rounded-lg text-[13px] font-semibold w-full"
-                    style={{ background: "#c8102e" }}
+                    style={{ background: "#55b7e5" }}
                   >
                     <Phone size={14} /> Get a Quote
                   </Link>

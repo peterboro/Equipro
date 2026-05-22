@@ -6,8 +6,8 @@ export default function Page() {
     title="Facility Maintenance"
     subtitle="Comprehensive mechanical and electrical facility maintenance — keeping your operations running smoothly."
     breadcrumbLabel="Facility Maintenance"
-    heroImage="/images/cooling-technologies-bg.jpg"
-    sideImage="/images/compressors.png"
+    heroImage="/images/gallery/equipro-project-56.jpg"
+    sideImage="/images/gallery/equipro-project-57.jpg"
     icon="🔧"
     intro="Equipro provides comprehensive mechanical and electrical facility maintenance services for industrial, commercial and institutional clients across Kenya. Our professional approach ensures successful project completion on time and within budget."
     body={[

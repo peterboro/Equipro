@@ -7,6 +7,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const allProducts = [
   { title: "Refrigeration Technologies", href: "/products/refrigeration-technologies" },
+  { title: "Freon Gases", href: "/products/freon-gases" },
   { title: "Compressors", href: "/products/compressors" },
   { title: "Condensers", href: "/products/condensers" },
   { title: "Evaporators & Glycol Coolers", href: "/products/evaporators" },
@@ -35,7 +36,7 @@ export default function ProductDetail({ title, subtitle, breadcrumbLabel, heroIm
           <div className="grid lg:grid-cols-3 gap-12">
             <div className="lg:col-span-2">
               <div className="text-4xl mb-5">{icon}</div>
-              <h2 className="text-3xl font-bold text-[#0d2561] mb-5" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>{title}</h2>
+              <h2 className="text-3xl font-bold text-[#111827] mb-5" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>{title}</h2>
               <p className="text-gray-700 text-[15px] leading-relaxed mb-6 font-medium">{intro}</p>
               {body.map((para, i) => <p key={i} className="text-gray-600 text-[15px] leading-relaxed mb-5">{para}</p>)}
               <div className="grid grid-cols-2 gap-4 my-8">
@@ -45,29 +46,29 @@ export default function ProductDetail({ title, subtitle, breadcrumbLabel, heroIm
               </div>
               {variants && variants.length > 0 && (
                 <>
-                  <h3 className="text-2xl font-bold text-[#0d2561] mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Product Variants</h3>
+                  <h3 className="text-2xl font-bold text-[#111827] mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Product Variants</h3>
                   <div className="grid md:grid-cols-2 gap-4 mb-8">
                     {variants.map((v) => (
-                      <div key={v.name} className="bg-[#f7f9fc] rounded-xl p-5 border border-gray-100 hover:border-[#c8102e] transition-colors">
-                        <h4 className="font-bold text-[#0d2561] text-base mb-2" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>{v.name}</h4>
+                      <div key={v.name} className="bg-[#f4f6f8] rounded-xl p-5 border border-gray-100 hover:border-[#55b7e5] transition-colors">
+                        <h4 className="font-bold text-[#111827] text-base mb-2" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>{v.name}</h4>
                         <p className="text-gray-500 text-sm leading-relaxed">{v.desc}</p>
                       </div>
                     ))}
                   </div>
                 </>
               )}
-              <h3 className="text-2xl font-bold text-[#0d2561] mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Features & Benefits</h3>
+              <h3 className="text-2xl font-bold text-[#111827] mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Features & Benefits</h3>
               <ul className="space-y-3 mb-8">
                 {features.map((f) => (
                   <li key={f} className="flex items-start gap-3 text-gray-700 text-[14px]">
-                    <CheckCircle2 size={17} className="text-[#c8102e] flex-shrink-0 mt-0.5" /> {f}
+                    <CheckCircle2 size={17} className="text-[#55b7e5] flex-shrink-0 mt-0.5" /> {f}
                   </li>
                 ))}
               </ul>
               {specs && (
                 <>
-                  <h3 className="text-2xl font-bold text-[#0d2561] mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Technical Specifications</h3>
-                  <div className="bg-[#f7f9fc] rounded-xl overflow-hidden border border-gray-100 mb-8">
+                  <h3 className="text-2xl font-bold text-[#111827] mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Technical Specifications</h3>
+                  <div className="bg-[#f4f6f8] rounded-xl overflow-hidden border border-gray-100 mb-8">
                     {specs.map((s, i) => (
                       <div key={i} className={`flex justify-between px-5 py-3.5 text-sm ${i%2===0?"bg-white":""}`}>
                         <span className="font-medium text-gray-700">{s.label}</span>
@@ -77,31 +78,31 @@ export default function ProductDetail({ title, subtitle, breadcrumbLabel, heroIm
                   </div>
                 </>
               )}
-              <Link href="/contact" className="inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 shadow-lg" style={{ background:"#0d2561" }}>
+              <Link href="/contact" className="inline-flex items-center gap-2 text-white font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 shadow-lg" style={{ background:"#111827" }}>
                 Request a Quote <ArrowRight size={15} />
               </Link>
             </div>
             <div className="space-y-6">
-              <div className="bg-[#f7f9fc] rounded-2xl p-6 border border-gray-100">
-                <h4 className="font-bold text-[#0d2561] text-lg mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>All Products</h4>
+              <div className="bg-[#f4f6f8] rounded-2xl p-6 border border-gray-100">
+                <h4 className="font-bold text-[#111827] text-lg mb-4" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>All Products</h4>
                 <ul className="space-y-1">
                   {allProducts.map((p) => (
                     <li key={p.href}>
-                      <Link href={p.href} className={`block px-4 py-2.5 rounded-lg text-sm transition-all ${p.title===title?"text-white font-semibold":"text-gray-600 hover:bg-white hover:text-[#0d2561] hover:shadow-sm"}`}
-                        style={p.title===title?{background:"#0d2561"}:{}}>
+                      <Link href={p.href} className={`block px-4 py-2.5 rounded-lg text-sm transition-all ${p.title===title?"text-white font-semibold":"text-gray-600 hover:bg-white hover:text-[#111827] hover:shadow-sm"}`}
+                        style={p.title===title?{background:"#111827"}:{}}>
                         {p.title}
                       </Link>
                     </li>
                   ))}
                 </ul>
               </div>
-              <div className="rounded-2xl p-6 text-white" style={{ background:"#0d2561" }}>
+              <div className="rounded-2xl p-6 text-white" style={{ background:"#111827" }}>
                 <h4 className="font-bold text-xl mb-3" style={{ fontFamily:"'Barlow Condensed',sans-serif" }}>Request a Quote</h4>
-                <p className="text-blue-200 text-sm leading-relaxed mb-5">Tell us your requirements and we'll provide a detailed technical and commercial proposal.</p>
-                <Link href="/contact" className="block text-center text-white font-semibold py-3 rounded-xl transition-colors text-sm" style={{ background:"#c8102e" }}>
+                <p className="text-sky-100 text-sm leading-relaxed mb-5">Tell us your requirements and we'll provide a detailed technical and commercial proposal.</p>
+                <Link href="/contact" className="block text-center text-white font-semibold py-3 rounded-xl transition-colors text-sm" style={{ background:"#55b7e5" }}>
                   Contact Our Team
                 </Link>
-                <a href="tel:+254722101946" className="block text-center text-blue-300 text-xs mt-3 hover:text-white transition-colors">
+                <a href="tel:+254722101946" className="block text-center text-sky-200 text-xs mt-3 hover:text-white transition-colors">
                   0722-101946 / 0722-514226
                 </a>
               </div>

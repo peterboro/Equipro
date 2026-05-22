@@ -6,7 +6,7 @@ export default function Page() {
     title="Compressors"
     subtitle="Industrial-grade GEA refrigeration compressors — piston and screw types for all refrigerant systems."
     breadcrumbLabel="Compressors"
-    heroImage="/images/site-compressor-unit.jpg"
+    heroImage="/images/gallery/equipro-project-57.jpg"
     icon="⚙️"
     intro="In a refrigeration system, the compressor is the mechanical heart of the plant — converting low-pressure, low-temperature refrigerant gas into high-temperature, high-pressure refrigerant gas that can then be condensed and used to absorb heat in the evaporator. Equipro is a specialist in GEA compressors for industrial refrigeration applications."
     body={[
@@ -35,8 +35,8 @@ export default function Page() {
       { label: "Warranty", value: "Manufacturer warranty plus Equipro support" },
     ]}
     images={[
-      "/images/site-compressor-unit.jpg",
-      "/images/site-co2-plant-2.jpg",
+      "/images/gallery/equipro-project-57.jpg",
+      "/images/gallery/equipro-project-58.jpg",
     ]}
     variants={[
       { name: "GEA Piston Compressor", desc: "Reciprocating compressor ideal for NH3 systems. Available in single and multi-cylinder configurations. Proven GEA reliability for heavy industrial duty." },

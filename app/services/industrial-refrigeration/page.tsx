@@ -6,8 +6,8 @@ export default function Page() {
     title="Industrial Refrigeration Solutions"
     subtitle="Complete turnkey refrigeration solutions from project design through to 24/7 maintenance and repair."
     breadcrumbLabel="Industrial Refrigeration"
-    heroImage="/images/site-co2-plant-1.jpg"
-    sideImage="/images/site-co2-system.jpg"
+    heroImage="/images/gallery/equipro-project-56.jpg"
+    sideImage="/images/gallery/equipro-project-60.jpg"
     icon="❄️"
     intro="Equipro has proven its reputation with successful turnkey projects and refrigeration systems built over many years. We offer complete industrial refrigeration solutions — from initial project design through installation, commissioning and ongoing maintenance."
     body={[

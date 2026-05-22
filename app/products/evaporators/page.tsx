@@ -6,7 +6,7 @@ export default function Page() {
     title="Evaporators & Glycol Coolers"
     subtitle="Transferring heat from the media to be cooled to the refrigerant — the working end of every refrigeration system."
     breadcrumbLabel="Evaporators & Glycol Coolers"
-    heroImage="/images/site-guntner-evaporator.jpg"
+    heroImage="/images/gallery/equipro-project-51.jpg"
     icon="💧"
     intro="An evaporator transfers heat from the air flowing over it to the cooler refrigerant flowing through it by utilising coils. It is the component that actually delivers the cooling effect — whether chilling air in a cold room, cooling brine in a process application, or providing chilled water for an air conditioning system."
     body={[
@@ -35,8 +35,8 @@ export default function Page() {
       { label: "Brands", value: "Güntner, GEA, Alfa Laval and equivalents" },
     ]}
     images={[
-      "/images/evaporators-glycol.png",
-      "/images/site-cold-room-evaporators.jpg",
+      "/images/gallery/equipro-project-51.jpg",
+      "/images/gallery/equipro-project-47.jpg",
     ]}
   />;
 }

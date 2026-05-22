@@ -9,42 +9,42 @@ const services = [
     title: "Industrial Refrigeration",
     description: "Complete turnkey industrial refrigeration solutions — project design, installation, commissioning and 24/7 maintenance using Freon, NH3 and CO2 (R744) technologies.",
     href: "/services/industrial-refrigeration",
-    color: "from-blue-500 to-blue-700",
+    color: "from-slate-500 to-slate-800",
   },
   {
     icon: Wind,
     title: "HVAC Systems",
     description: "Heating, ventilation and air conditioning systems for commercial, industrial and residential applications. Supply, installation and maintenance.",
     href: "/services/hvac-systems",
-    color: "from-cyan-500 to-blue-600",
+    color: "from-sky-400 to-sky-600",
   },
   {
     icon: Wrench,
     title: "Facility Maintenance",
     description: "Comprehensive mechanical and electrical facility maintenance services. Proactive maintenance programs to minimise downtime and protect your assets.",
     href: "/services/facility-maintenance",
-    color: "from-red-600 to-red-800",
+    color: "from-sky-500 to-sky-700",
   },
   {
     icon: Zap,
     title: "Electrical Services",
     description: "NCA 5 registered electrical contractor offering installation, maintenance and repair of electrical systems for industrial and commercial facilities.",
     href: "/services/electrical-services",
-    color: "from-amber-500 to-orange-600",
+    color: "from-slate-400 to-slate-600",
   },
   {
     icon: Monitor,
     title: "PLC & Automation",
     description: "PLC and automation systems for instant monitoring of all refrigeration data. Parameter measurement and system optimisation for reliable, efficient operation.",
     href: "/services/plc-automation",
-    color: "from-indigo-500 to-purple-700",
+    color: "from-sky-400 to-slate-700",
   },
   {
     icon: Package,
     title: "Packaging Line Services",
     description: "Packaging materials, packaging equipment supply, installation and maintenance. Inkjet supply, installation and maintenance services for production lines.",
     href: "/services/packaging",
-    color: "from-green-500 to-emerald-700",
+    color: "from-slate-500 to-slate-700",
   },
 ];
 
@@ -56,13 +56,13 @@ const cardVariants = {
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-[#0d2561] relative overflow-hidden">
-      <div className="absolute inset-0 opacity-[0.03]" style={{
-        backgroundImage: "linear-gradient(rgba(255,255,255,.8) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.8) 1px,transparent 1px)",
+    <section id="services" className="py-24 bg-[#f4f6f8] relative overflow-hidden">
+      <div className="absolute inset-0 opacity-[0.55]" style={{
+        backgroundImage: "linear-gradient(rgba(17,24,39,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(17,24,39,.045) 1px,transparent 1px)",
         backgroundSize: "80px 80px",
       }} />
-      <div className="absolute top-0 right-0 w-96 h-96 bg-red-900/15 rounded-full blur-3xl" />
-      <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-600/10 rounded-full blur-3xl" />
+      <div className="absolute top-0 right-0 h-48 w-48 bg-sky-100/70 blur-3xl" />
+      <div className="absolute bottom-0 left-0 h-44 w-44 bg-white blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <motion.div
@@ -72,12 +72,12 @@ export default function Services() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="inline-block text-red-400 text-xs font-bold tracking-widest uppercase mb-3">What We Do</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Our Services</h2>
-          <p className="text-gray-400 max-w-xl mx-auto text-sm leading-relaxed">
+          <span className="inline-block text-[#55b7e5] text-xs font-bold tracking-widest uppercase mb-3">What We Do</span>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#111827] mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Our Services</h2>
+          <p className="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">
             Need a refrigeration solution? We offer everything from project design to repair & maintenance.
           </p>
-          <div className="w-12 h-1 bg-gradient-to-r from-[#c8102e] to-[#0d2561] rounded-full mx-auto mt-5" style={{ background: "linear-gradient(90deg, #c8102e, #4a7fd4)" }} />
+          <div className="w-12 h-1 bg-gradient-to-r from-[#55b7e5] to-[#111827] rounded-full mx-auto mt-5" style={{ background: "linear-gradient(90deg, #55b7e5, #8fd4f1)" }} />
         </motion.div>
 
         <motion.div
@@ -92,17 +92,17 @@ export default function Services() {
               key={service.title}
               variants={cardVariants}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className="service-card relative bg-white/[0.05] border border-white/10 rounded-2xl p-7 group cursor-pointer hover:bg-white/[0.09] transition-colors overflow-hidden"
+              className="service-card relative bg-white border border-gray-100 rounded-2xl p-7 group cursor-pointer hover:border-sky-100 hover:shadow-xl hover:shadow-slate-900/10 transition-all overflow-hidden"
             >
               <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${service.color} mb-5 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                 <service.icon size={22} className="text-white" />
               </div>
-              <h3 className="text-white font-bold text-lg mb-3 leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{service.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed mb-5">{service.description}</p>
-              <Link href={service.href} className="inline-flex items-center gap-1.5 text-red-400 text-sm font-semibold hover:gap-3 transition-all duration-200">
+              <h3 className="text-[#111827] font-bold text-lg mb-3 leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{service.title}</h3>
+              <p className="text-gray-500 text-sm leading-relaxed mb-5">{service.description}</p>
+              <Link href={service.href} className="inline-flex items-center gap-1.5 text-[#2f9ccc] text-sm font-semibold hover:gap-3 transition-all duration-200">
                 LEARN MORE <ArrowRight size={13} />
               </Link>
-              <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#c8102e] to-[#4a7fd4] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+              <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#55b7e5] to-[#8fd4f1] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </motion.div>
           ))}
         </motion.div>
@@ -115,7 +115,7 @@ export default function Services() {
           transition={{ delay: 0.3 }}
         >
           <Link href="/services"
-            className="inline-flex items-center gap-2 border border-white/30 hover:border-white/70 text-white font-semibold px-7 py-3 rounded-xl transition-all hover:bg-white/10 text-sm">
+            className="inline-flex items-center gap-2 bg-[#111827] text-white font-semibold px-7 py-3 rounded-xl transition-all hover:bg-[#374151] text-sm">
             View All Services <ArrowRight size={14} />
           </Link>
         </motion.div>

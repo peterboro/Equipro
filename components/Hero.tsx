@@ -22,18 +22,21 @@ export default function Hero() {
       {/* Background — real Equipro cooling technologies image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/images/cooling-technologies-bg.jpg"
+          src="/images/gallery/equipro-project-56.jpg"
           alt="Industrial Cooling Technologies"
           className="w-full h-full object-cover object-center"
           loading="eager"
         />
         <div className="absolute inset-0" style={{
-          background: "linear-gradient(110deg, rgba(6,12,35,0.93) 0%, rgba(13,37,97,0.84) 45%, rgba(6,12,35,0.68) 100%)"
+          background: "linear-gradient(105deg, rgba(5,5,5,0.76) 0%, rgba(17,24,39,0.58) 36%, rgba(17,24,39,0.18) 66%, rgba(255,255,255,0.02) 100%)"
         }} />
-        <div className="absolute top-0 right-0 w-1/3 h-full" style={{
-          background: "linear-gradient(to left, rgba(200,16,46,0.08), transparent)"
+        <div className="absolute inset-x-0 bottom-0 h-1/3" style={{
+          background: "linear-gradient(to top, rgba(5,5,5,0.42), transparent)"
         }} />
-        <div className="absolute inset-0 opacity-[0.03]" style={{
+        <div className="absolute top-0 right-0 w-1/2 h-full" style={{
+          background: "linear-gradient(to left, rgba(85,183,229,0.10), transparent)"
+        }} />
+        <div className="absolute inset-0 opacity-[0.025]" style={{
           backgroundImage: "linear-gradient(rgba(255,255,255,.8) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.8) 1px,transparent 1px)",
           backgroundSize: "60px 60px"
         }} />
@@ -53,9 +56,9 @@ export default function Hero() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="inline-flex items-center gap-2 border text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-full mb-7"
-              style={{ background: "rgba(200,16,46,0.18)", borderColor: "rgba(200,16,46,0.4)", color: "#fca5a5" }}
+              style={{ background: "rgba(255,255,255,0.9)", borderColor: "rgba(85,183,229,0.55)", color: "#111827" }}
             >
-              <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#c8102e" }} />
+              <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#55b7e5" }} />
               NCA Registered — Nairobi, Kenya
             </motion.div>
 
@@ -65,7 +68,7 @@ export default function Hero() {
             >
               Power You
               <br />
-              <span style={{ background: "linear-gradient(135deg, #c8102e, #e8455f)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
+              <span style={{ background: "linear-gradient(135deg, #55b7e5, #8fd4f1)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
                 Can Trust
               </span>
             </h1>
@@ -74,8 +77,8 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="text-gray-300 leading-relaxed mb-7 max-w-xl"
-              style={{ fontSize: "clamp(14px, 1.8vw, 17px)" }}
+              className="text-white leading-relaxed mb-7 max-w-xl"
+              style={{ fontSize: "clamp(14px, 1.8vw, 17px)", textShadow: "0 1px 18px rgba(0,0,0,0.42)" }}
             >
               Equipro Investments (K) Ltd — specialist contractors in Heating, Refrigeration, Ventilation, Air Conditioning (HVAC) and Facility Maintenance Mechanical & Electrical Services.
             </motion.p>
@@ -88,8 +91,8 @@ export default function Hero() {
             >
               {highlights.map((h) => (
                 <div key={h.label} className="flex items-center gap-2 px-3 py-1.5 rounded-lg text-white text-xs font-medium"
-                  style={{ background: "rgba(255,255,255,0.1)", border: "1px solid rgba(255,255,255,0.2)" }}>
-                  <h.icon size={13} style={{ color: "#fca5a5" }} />
+                  style={{ background: "rgba(17,24,39,0.48)", border: "1px solid rgba(255,255,255,0.24)", backdropFilter: "blur(8px)" }}>
+                  <h.icon size={13} style={{ color: "#8fd4f1" }} />
                   {h.label}
                 </div>
               ))}
@@ -103,12 +106,12 @@ export default function Hero() {
             >
               <Link href="/services"
                 className="inline-flex items-center gap-2 font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 shadow-lg text-sm text-white hover:opacity-90"
-                style={{ background: "#c8102e" }}>
+                style={{ background: "#55b7e5" }}>
                 Our Services <ArrowRight size={15} />
               </Link>
               <Link href="/contact"
                 className="inline-flex items-center gap-2 font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 text-sm text-white hover:bg-white/10"
-                style={{ border: "1.5px solid rgba(255,255,255,0.35)" }}>
+                style={{ border: "1.5px solid rgba(255,255,255,0.55)", background: "rgba(17,24,39,0.34)", backdropFilter: "blur(8px)" }}>
                 Get a Quote
               </Link>
             </motion.div>
@@ -122,14 +125,14 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.9 }}
         className="relative z-10 w-full"
-        style={{ background: "rgba(6,12,35,0.80)", borderTop: "1px solid rgba(255,255,255,0.08)" }}
+        style={{ background: "rgba(255,255,255,0.92)", borderTop: "1px solid rgba(17,24,39,0.08)", backdropFilter: "blur(12px)" }}
       >
         <div className="max-w-7xl mx-auto px-6 py-5">
           <div className="grid grid-cols-4 gap-4 md:gap-8">
             {stats.map((s) => (
               <div key={s.label} className="text-center md:text-left">
-                <div className="font-bold text-white text-xl md:text-3xl" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{s.num}</div>
-                <div className="text-gray-400 text-xs tracking-wide mt-0.5">{s.label}</div>
+                <div className="font-bold text-[#111827] text-xl md:text-3xl" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{s.num}</div>
+                <div className="text-gray-500 text-xs tracking-wide mt-0.5">{s.label}</div>
               </div>
             ))}
           </div>

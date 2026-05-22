@@ -6,7 +6,7 @@ export default function Page() {
     title="Packaging Equipment"
     subtitle="Packaging machinery, inkjet coding systems and materials for food processing and agricultural production lines."
     breadcrumbLabel="Packaging Equipment"
-    heroImage="/images/cooling-technologies-bg.jpg"
+    heroImage="/images/gallery/equipro-project-56.jpg"
     icon="📦"
     intro="Equipro supplies packaging equipment, coding and marking systems, and packaging materials for food processing, agricultural and FMCG production operations in Kenya. Our packaging line services have been delivered to some of Kenya's leading companies."
     body={[
@@ -35,8 +35,8 @@ export default function Page() {
       { label: "Training", value: "On-site operator and technician training" },
     ]}
     images={[
-      "/images/freon-refrigeration-system.png",
-      "/images/glycol.jpg",
+      "/images/gallery/equipro-project-52.jpg",
+      "/images/gallery/equipro-project-14.jpg",
     ]}
   />;
 }

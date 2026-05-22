@@ -6,7 +6,7 @@ export default function Page() {
     title="Condensers"
     subtitle="Heat exchanger devices dispersing refrigeration system heat to ambient air or water — essential for efficient operation."
     breadcrumbLabel="Condensers"
-    heroImage="/images/site-ammonia-tank.jpg"
+    heroImage="/images/gallery/equipro-project-05.jpg"
     icon="🌡️"
     intro="A condenser is a heat exchanger device that utilises coils to transfer heat from the refrigerant flowing inside it to the air or water flowing over it. Controlling the condenser is essential for efficient refrigeration system operation."
     body={[
@@ -35,8 +35,8 @@ export default function Page() {
       { label: "Brands", value: "BAC, GEA, Güntner and equivalents" },
     ]}
     images={[
-      "/images/condensers.png",
-      "/images/co2-nh3-cascade.jpg",
+      "/images/gallery/equipro-project-34.jpg",
+      "/images/gallery/equipro-project-59.jpg",
     ]}
   />;
 }

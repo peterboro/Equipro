@@ -6,8 +6,8 @@ export default function Page() {
     title="PLC & Automation Systems"
     subtitle="Instant monitoring and precision control of all parameters in your refrigeration and HVAC systems."
     breadcrumbLabel="PLC & Automation"
-    heroImage="/images/glycol.jpg"
-    sideImage="/images/co2-nh3-cascade.jpg"
+    heroImage="/images/gallery/equipro-project-14.jpg"
+    sideImage="/images/gallery/equipro-project-59.jpg"
     icon="🖥️"
     intro="PLC (Programmable Logic Controller) and automation systems provide instant monitoring of all data in the refrigeration system. They ensure the measurement of all measurable parameters and the correct operation of the system with parameter relationships — giving you complete visibility and control."
     body={[

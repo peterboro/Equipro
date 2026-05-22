@@ -74,11 +74,11 @@ const clients = [
 ];
 
 const sectorColorMap: Record<string, string> = {
-  "Food & Bakery": "bg-amber-100 text-amber-800",
-  "Pharmaceuticals": "bg-blue-100 text-blue-800",
-  "Food Processing": "bg-green-100 text-green-800",
-  "FMCG": "bg-purple-100 text-purple-800",
-  "Technology": "bg-cyan-100 text-cyan-800",
+  "Food & Bakery": "bg-slate-100 text-slate-700",
+  "Pharmaceuticals": "bg-sky-100 text-slate-700",
+  "Food Processing": "bg-slate-100 text-slate-700",
+  "FMCG": "bg-slate-100 text-slate-700",
+  "Technology": "bg-sky-100 text-slate-700",
   "Agriculture": "bg-lime-100 text-lime-800",
   "Government": "bg-gray-100 text-gray-800",
 };
@@ -87,7 +87,7 @@ function getSectorColor(sector: string): string {
   for (const [key, val] of Object.entries(sectorColorMap)) {
     if (sector.startsWith(key)) return val;
   }
-  return "bg-red-100 text-red-800";
+  return "bg-sky-100 text-slate-700";
 }
 
 export default function ClientsPage() {
@@ -98,22 +98,22 @@ export default function ClientsPage() {
         title="Our Clients"
         subtitle="A proven track record across food processing, pharmaceuticals, agriculture, government and industrial cold storage — Kenya and beyond."
         breadcrumbs={[{ label: "Clients" }]}
-        image="/images/site-cold-room-wide.jpg"
+        image="/images/gallery/equipro-project-10.jpg"
       />
 
       {/* Stats */}
-      <section className="py-14 bg-[#0d2561]">
+      <section className="py-14 bg-[#111827]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
               { num: "15+", label: "Major Clients" },
               { num: "16+", label: "Years Track Record" },
               { num: "Multi-sector", label: "Industry Coverage" },
-              { num: "4 Countries", label: "Kenya, Nigeria, Tanzania, Ivory Coast" },
+              { num: "Regional Projects", label: "Work delivered across Kenya, Nigeria, Tanzania & Ivory Coast" },
             ].map((s) => (
               <div key={s.label}>
                 <div className="text-3xl md:text-4xl font-bold text-white mb-1" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{s.num}</div>
-                <div className="text-blue-200 text-sm">{s.label}</div>
+                <div className="text-sky-100 text-sm">{s.label}</div>
               </div>
             ))}
           </div>
@@ -124,17 +124,17 @@ export default function ClientsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-14">
-            <span className="inline-block text-[#c8102e] text-xs font-bold tracking-widest uppercase mb-3">Trusted By</span>
-            <h2 className="text-4xl font-bold text-[#0d2561]" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Client Portfolio</h2>
+            <span className="inline-block text-[#55b7e5] text-xs font-bold tracking-widest uppercase mb-3">Trusted By</span>
+            <h2 className="text-4xl font-bold text-[#111827]" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Client Portfolio</h2>
             <p className="text-gray-500 text-sm mt-3 max-w-xl mx-auto">A selection of our clients and the services we offer or have offered them.</p>
-            <div className="w-12 h-1 rounded-full mx-auto mt-4" style={{ background: "linear-gradient(90deg, #c8102e, #0d2561)" }} />
+            <div className="w-12 h-1 rounded-full mx-auto mt-4" style={{ background: "linear-gradient(90deg, #55b7e5, #111827)" }} />
           </div>
 
           <div className="space-y-5">
             {clients.map((client, i) => (
               <div
                 key={client.name}
-                className={`flex flex-col md:flex-row gap-5 p-6 rounded-2xl border transition-shadow hover:shadow-lg ${i % 2 === 0 ? "bg-[#f7f9fc] border-gray-100" : "bg-white border-gray-100"}`}
+                className={`flex flex-col md:flex-row gap-5 p-6 rounded-2xl border transition-shadow hover:shadow-lg ${i % 2 === 0 ? "bg-[#f4f6f8] border-gray-100" : "bg-white border-gray-100"}`}
               >
                 {/* Logo box */}
                 <div className="flex-shrink-0 flex items-center justify-center w-24 h-16 rounded-xl bg-white border border-gray-150 shadow-sm overflow-hidden p-2">
@@ -148,7 +148,7 @@ export default function ClientsPage() {
                 {/* Content */}
                 <div className="flex-1">
                   <div className="flex flex-wrap items-start gap-3 mb-2">
-                    <h3 className="font-bold text-[#0d2561] text-lg leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{client.name}</h3>
+                    <h3 className="font-bold text-[#111827] text-lg leading-tight" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{client.name}</h3>
                     <span className={`text-[10px] font-bold tracking-wide uppercase px-2.5 py-1 rounded-full ${getSectorColor(client.sector)}`}>
                       {client.sector}
                     </span>

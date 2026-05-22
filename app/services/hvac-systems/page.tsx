@@ -6,8 +6,8 @@ export default function Page() {
     title="HVAC Systems"
     subtitle="Heating, Ventilation and Air Conditioning — System Air fans, Trane AHUs, Midea VRF/VRV — supply, installation and maintenance across Kenya."
     breadcrumbLabel="HVAC Systems"
-    heroImage="/images/site-cold-room-evaporators.jpg"
-    sideImage="/images/site-guntner-evaporator.jpg"
+    heroImage="/images/gallery/equipro-project-47.jpg"
+    sideImage="/images/gallery/equipro-project-51.jpg"
     icon="🌬️"
     intro="As specialist HVAC contractors registered with NCA at Grade 5, Equipro Investments (K) Ltd provides complete heating, ventilation and air conditioning services for commercial, industrial and institutional facilities across Kenya. We partner with globally recognised brands — System Air, Trane and Midea — to deliver systems that match every application and budget."
     body={[

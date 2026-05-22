@@ -15,7 +15,7 @@ export default function ClientLogo({ domain, localLogo, name, initials }: Client
   const fallback = (
     <div
       className="w-full h-full flex items-center justify-center rounded-lg text-white font-bold text-sm"
-      style={{ background: "linear-gradient(135deg, #0d2561, #1a3a8c)" }}
+      style={{ background: "linear-gradient(135deg, #111827, #374151)" }}
       title={name}
     >
       {initials}
