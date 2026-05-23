@@ -1,20 +1,217 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/app/_not-found/page-8520002249bfd8d4.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/css/04eb3240e2e8ba61.css",
+      "static/chunks/app/layout-1aed5d2fde5ee88d.js"
+    ],
+    "/blog-news/[slug]/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/blog-news/[slug]/page-18a4da2c0cb9415c.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/page-c68d181650861367.js"
+    ],
+    "/products/compressors/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/compressors/page-43ebb4426e57b840.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/about-us/page-3b398247ae9fe748.js"
     ],
     "/clients/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/clients/page.js"
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/clients/page-0fe3446aeda41b12.js"
+    ],
+    "/blog-news/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/blog-news/page-b2dde5067ee644b2.js"
+    ],
+    "/products/cold-room-equipment/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/cold-room-equipment/page-9cabdcb99825c2af.js"
+    ],
+    "/products/condensers/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/condensers/page-63c5bdc833db5809.js"
+    ],
+    "/products/evaporators/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/evaporators/page-d44ffe42e718e229.js"
+    ],
+    "/products/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/page-7be965ee26bddf09.js"
+    ],
+    "/products/packaging-equipment/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/packaging-equipment/page-236b599e9b3fb36e.js"
+    ],
+    "/services/electrical-services/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/electrical-services/page-ab764dae9503ee1a.js"
+    ],
+    "/services/facility-maintenance/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/facility-maintenance/page-4191fb47c7f23e36.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/contact/page-07954d390524fd41.js"
+    ],
+    "/services/industrial-refrigeration/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/industrial-refrigeration/page-3a77d2fc29dfc915.js"
+    ],
+    "/services/plc-automation/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/plc-automation/page-dea2d5167225be5e.js"
+    ],
+    "/products/freon-gases/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/freon-gases/page-6eaa9bf5738117a8.js"
+    ],
+    "/services/remote-monitoring/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/remote-monitoring/page-6315ab332ace1811.js"
+    ],
+    "/services/hvac-systems/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/hvac-systems/page-9dfe12c6b4dde344.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/page-ddeeacb99969c217.js"
+    ],
+    "/products/refrigeration-technologies/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/products/refrigeration-technologies/page-6852fd3510053175.js"
+    ],
+    "/services/packaging/page": [
+      "static/chunks/webpack-cb86a99cd2f791d1.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-509d2c9a3fbd8547.js",
+      "static/chunks/main-app-c58044a0ea0cf464.js",
+      "static/chunks/548-efe886bea835afa3.js",
+      "static/chunks/771-8095b8141f756121.js",
+      "static/chunks/app/services/packaging/page-34e5553f0c6d8292.js"
     ]
   }
 }
