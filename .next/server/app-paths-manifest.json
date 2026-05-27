@@ -1,25 +1,5 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/blog-news/[slug]/page": "app/blog-news/[slug]/page.js",
   "/page": "app/page.js",
-  "/products/compressors/page": "app/products/compressors/page.js",
-  "/about-us/page": "app/about-us/page.js",
-  "/clients/page": "app/clients/page.js",
-  "/blog-news/page": "app/blog-news/page.js",
-  "/products/cold-room-equipment/page": "app/products/cold-room-equipment/page.js",
-  "/products/condensers/page": "app/products/condensers/page.js",
-  "/products/evaporators/page": "app/products/evaporators/page.js",
-  "/products/page": "app/products/page.js",
-  "/products/packaging-equipment/page": "app/products/packaging-equipment/page.js",
-  "/services/electrical-services/page": "app/services/electrical-services/page.js",
-  "/services/facility-maintenance/page": "app/services/facility-maintenance/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/services/industrial-refrigeration/page": "app/services/industrial-refrigeration/page.js",
-  "/services/plc-automation/page": "app/services/plc-automation/page.js",
   "/products/freon-gases/page": "app/products/freon-gases/page.js",
-  "/services/remote-monitoring/page": "app/services/remote-monitoring/page.js",
-  "/services/hvac-systems/page": "app/services/hvac-systems/page.js",
-  "/services/page": "app/services/page.js",
-  "/products/refrigeration-technologies/page": "app/products/refrigeration-technologies/page.js",
-  "/services/packaging/page": "app/services/packaging/page.js"
+  "/contact/page": "app/contact/page.js"
 }
