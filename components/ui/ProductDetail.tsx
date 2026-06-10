@@ -12,6 +12,7 @@ const allProducts = [
   { title: "Condensers", href: "/products/condensers" },
   { title: "Evaporators & Glycol Coolers", href: "/products/evaporators" },
   { title: "Cold Room Equipment", href: "/products/cold-room-equipment" },
+  { title: "Stainless Steel Water Tanks", href: "/products/stainless-steel-water-tanks" },
   { title: "Packaging Equipment", href: "/products/packaging-equipment" },
 ];
 

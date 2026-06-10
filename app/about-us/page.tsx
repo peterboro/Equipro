@@ -41,13 +41,14 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-gray-600 text-[15px] leading-relaxed">
                 <p>Equipro Investments (K) Ltd was established in 2007 as an electromechanical systems design, installation and commissioning company. We are specialists in packaging materials and packaging equipment, temperature monitoring, home automation, lighting controls, and mechanical & electrical works as unique systems based on customer requirements.</p>
-                <p>We are fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5. This dual registration underscores our capability and commitment to delivering compliant, professional work across both disciplines.</p>
+                <p>We are fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5, and we hold an EPRA Class B certificate. These registrations underscore our capability and commitment to delivering compliant, professional work across both disciplines.</p>
                 <p>We have a wealth of experience delivering projects and a proven track record in all market sectors — both industrial and private. We take great care to understand our client's requirements and make sure we deliver to those requirements, supported by a client-focused attitude and proven experience.</p>
               </div>
               <ul className="mt-8 space-y-3">
                 {[
                   "Electromechanical systems design & commissioning",
                   "NCA 5 registered — Refrigeration, AC & Electrical",
+                  "EPRA Class B certificate",
                   "Packaging equipment supply, installation & maintenance",
                   "Temperature monitoring & home automation systems",
                   "Lighting controls & facility management",
@@ -78,11 +79,12 @@ export default function AboutPage() {
       {/* Stats */}
       <section className="py-16" style={{ background: "#111827" }}>
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
             {[
               { num: "2007", label: "Year Established" },
               { num: "16+", label: "Years Experience" },
               { num: "NCA 5", label: "Registered Grade" },
+              { num: "EPRA B", label: "Class B Certificate" },
               { num: "24/7", label: "Support Available" },
             ].map((s) => (
               <div key={s.label}>

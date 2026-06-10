@@ -35,9 +35,18 @@ const products = [
     title: "Cold Room Equipment",
     subtitle: "Panels | Doors | Floor Heating",
     description: "Panels, doors, evaporators and floor heating systems for complete cold storage facilities.",
-    image: "/images/gallery/equipro-project-10.jpg",
+    image: "/images/floor-heating-installation.jpeg",
     href: "/products/cold-room-equipment",
     tag: "Cold Room",
+    imageClass: "object-cover",
+  },
+  {
+    title: "Stainless Steel Water Tanks",
+    subtitle: "Storage | Tower Tanks | Fabrication",
+    description: "Durable stainless steel water tanks and elevated tower tank systems for commercial and industrial facilities.",
+    image: "/images/stainless-steel-water-tower-tanks.jpeg",
+    href: "/products/stainless-steel-water-tanks",
+    tag: "Water Storage",
     imageClass: "object-cover",
   },
 ];
@@ -70,7 +79,7 @@ export default function Products() {
         </motion.div>
 
         <motion.div
-          className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 lg:gap-7"
+          className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 lg:gap-7"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

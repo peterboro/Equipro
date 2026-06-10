@@ -1,6 +1,6 @@
 import ServiceDetail from "@/components/ui/ServiceDetail";
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "Electrical Services | Equipro Services", description: "NCA 5 registered electrical contractor in Kenya. Generator installations, inverter maintenance, electrical panels, wiring and full electrical services." };
+export const metadata: Metadata = { title: "Electrical Services | Equipro Services", description: "NCA 5 registered electrical contractor with EPRA Class B certificate in Kenya. Generator installations, inverter maintenance, electrical panels, wiring and full electrical services." };
 export default function Page() {
   return <ServiceDetail
     title="Electrical Services"
@@ -9,7 +9,7 @@ export default function Page() {
     heroImage="/images/gallery/equipro-project-59.jpg"
     sideImage="/images/gallery/equipro-project-59.jpg"
     icon="⚡"
-    intro="Equipro Investments (K) Ltd is fully registered with NCA as an Electrical contractor at Grade 5. Our qualified electrical engineers deliver safe, compliant and reliable electrical installations and maintenance services across Kenya."
+    intro="Equipro Investments (K) Ltd is fully registered with NCA as an Electrical contractor at Grade 5 and holds an EPRA Class B certificate. Our qualified electrical engineers deliver safe, compliant and reliable electrical installations and maintenance services across Kenya."
     body={[
       "Our electrical services cover the full spectrum of commercial and industrial electrical works — from initial design and installation through to ongoing maintenance, fault finding and repair. We work on projects of all sizes, from single equipment installations to full facility electrical fit-outs.",
       "Key service areas include generator installations and maintenance, inverter maintenance and repair, server room air conditioning electrical work, electrical panel installation and maintenance, power distribution, lighting systems and all associated electrical works required for refrigeration and HVAC installations.",
@@ -17,6 +17,7 @@ export default function Page() {
     ]}
     features={[
       "NCA 5 registered electrical contractor",
+      "EPRA Class B certificate",
       "Generator installation, commissioning and maintenance",
       "Inverter systems maintenance and repair",
       "Electrical panel installation and maintenance",
@@ -27,6 +28,7 @@ export default function Page() {
     ]}
     specs={[
       { label: "NCA Registration", value: "Electrical Contractor — Grade 5" },
+      { label: "EPRA Certificate", value: "Class B" },
       { label: "Voltage Range", value: "Single phase 230V, Three phase 415V" },
       { label: "Generator Range", value: "5 kVA to 1,000+ kVA" },
       { label: "Standards", value: "IEE Wiring Regulations, local NCA codes" },

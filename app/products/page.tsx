@@ -57,7 +57,15 @@ const products = [
     subtitle: "Panels · Doors · Floor Heating",
     description: "Cold room panels, doors and floor heating systems for complete cold storage facility construction. High-performance insulation and durable access solutions.",
     href: "/products/cold-room-equipment",
-    image: "/images/gallery/equipro-project-10.jpg",
+    image: "/images/floor-heating-installation.jpeg",
+    icon: "",
+  },
+  {
+    title: "Stainless Steel Water Tanks",
+    subtitle: "Storage | Tower Tanks | Fabrication",
+    description: "Stainless steel water storage tanks, tower tanks and support structures for reliable utility water systems in commercial and industrial facilities.",
+    href: "/products/stainless-steel-water-tanks",
+    image: "/images/stainless-steel-water-tower-tanks.jpeg",
     icon: "",
   },
   {
