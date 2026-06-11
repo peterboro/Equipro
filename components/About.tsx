@@ -6,6 +6,7 @@ import Link from "next/link";
 const highlights = [
   "Electromechanical systems design, installation & commissioning",
   "Registered NCA 5 — Refrigeration, Air Conditioning & Electrical",
+  "EPRA Class B certificate",
   "Industrial and private projects across all market sectors",
   "Client-focused approach — on time, within budget",
   "Packaging materials, temperature monitoring & home automation",
@@ -14,6 +15,7 @@ const highlights = [
 
 const stats = [
   { icon: Award, value: "NCA 5", label: "Registered" },
+  { icon: Shield, value: "EPRA B", label: "Certified" },
   { icon: Zap, value: "2007", label: "Established" },
   { icon: Shield, value: "24/7", label: "Support" },
 ];
@@ -70,7 +72,7 @@ export default function About() {
               Equipro Investments (K) Ltd was established in 2007 as an electromechanical systems design, installation and commissioning company. We are specialists in packaging materials, packaging equipment, temperature monitoring, home automation, lighting controls, and mechanical & electrical works.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6 text-[15px]">
-              Fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5, we have a wealth of experience and a proven track record across all market sectors — both industrial and private projects.
+              Fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5, and holding an EPRA Class B certificate, we have a wealth of experience and a proven track record across all market sectors — both industrial and private projects.
             </p>
 
             <ul className="space-y-3 mb-8">
@@ -81,7 +83,7 @@ export default function About() {
               ))}
             </ul>
 
-            <div className="flex gap-8 mb-8 pt-6 border-t border-gray-200">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-8 pt-6 border-t border-gray-200">
               {stats.map((s) => (
                 <div key={s.label} className="text-center">
                   <s.icon size={20} className="text-[#55b7e5] mx-auto mb-1" />

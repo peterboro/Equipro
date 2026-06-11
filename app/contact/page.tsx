@@ -55,40 +55,49 @@ export default function ContactPage() {
                 <p className="font-semibold text-[#111827] text-sm mb-2">Company Details</p>
                 <p>NCA Registration: Refrigeration & AC — Grade 5</p>
                 <p>NCA Registration: Electrical Contractor — Grade 5</p>
+                <p>EPRA Certificate: Class B</p>
               </div>
             </div>
 
             {/* Contact Form */}
             <div className="lg:col-span-2 bg-[#f4f6f8] rounded-2xl p-8 border border-gray-100">
               <h3 className="text-2xl font-bold text-[#111827] mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Send Us a Message</h3>
-              <form className="space-y-5">
+              <form
+                className="space-y-5"
+                action="https://formsubmit.co/info@equiprogroup.com"
+                method="POST"
+              >
+                <input type="hidden" name="_subject" value="New Equipro Website Quote Request" />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value="https://equipro.vercel.app/contact/thank-you" />
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1.5">Full Name *</label>
-                    <input type="text" required placeholder="Your full name"
+                    <input type="text" name="Full Name" required placeholder="Your full name"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1.5">Company Name</label>
-                    <input type="text" placeholder="Your company"
+                    <input type="text" name="Company Name" placeholder="Your company"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1.5">Email Address *</label>
-                    <input type="email" required placeholder="your@email.com"
+                    <input type="email" name="Email Address" required placeholder="your@email.com"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1.5">Phone Number</label>
-                    <input type="tel" placeholder="+254 7XX XXX XXX"
+                    <input type="tel" name="Phone Number" placeholder="+254 7XX XXX XXX"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1.5">Service Required</label>
-                  <select className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all">
+                  <select name="Service Required" className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all">
                     <option value="">Select a service...</option>
                     <option>Industrial Refrigeration</option>
                     <option>HVAC Systems</option>
@@ -102,7 +111,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1.5">Message *</label>
-                  <textarea required rows={6} placeholder="Describe your project requirements or question..."
+                  <textarea name="Message" required rows={6} placeholder="Describe your project requirements or question..."
                     className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all resize-none" />
                 </div>
                 <button type="submit"

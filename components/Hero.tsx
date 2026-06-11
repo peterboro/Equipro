@@ -13,6 +13,7 @@ const stats = [
   { num: "2007", label: "Established" },
   { num: "16+", label: "Years Experience" },
   { num: "NCA 5", label: "Registered" },
+  { num: "EPRA B", label: "Class B Certificate" },
   { num: "24/7", label: "Support Available" },
 ];
 
@@ -59,7 +60,7 @@ export default function Hero() {
               style={{ background: "rgba(255,255,255,0.9)", borderColor: "rgba(85,183,229,0.55)", color: "#111827" }}
             >
               <span className="w-1.5 h-1.5 rounded-full animate-pulse" style={{ background: "#55b7e5" }} />
-              NCA Registered — Nairobi, Kenya
+              NCA Registered | EPRA Class B | Nairobi, Kenya
             </motion.div>
 
             <h1
@@ -128,7 +129,7 @@ export default function Hero() {
         style={{ background: "rgba(255,255,255,0.92)", borderTop: "1px solid rgba(17,24,39,0.08)", backdropFilter: "blur(12px)" }}
       >
         <div className="max-w-7xl mx-auto px-6 py-5">
-          <div className="grid grid-cols-4 gap-4 md:gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-8">
             {stats.map((s) => (
               <div key={s.label} className="text-center md:text-left">
                 <div className="font-bold text-[#111827] text-xl md:text-3xl" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{s.num}</div>
