@@ -2,8 +2,8 @@ import ProductDetail from "@/components/ui/ProductDetail";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cold Room Equipment | Equipro Products",
-  description: "Cold room insulated panels, XPS floor insulation, doors and floor heating systems for complete cold storage facilities in Kenya. Supply and installation by Equipro.",
+  title: "Cold Room Equipment & Installation in Kenya | Equipro",
+  description: "Cold room panels, cold room doors, XPS floor insulation, freezer room equipment, floor heating systems and cold storage installation support in Kenya.",
 };
 
 export default function Page() {

@@ -1,5 +1,5 @@
 "use client";
-import { Phone, Mail, MapPin, Facebook, Linkedin, Twitter } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -13,12 +13,12 @@ const quickLinks = [
 ];
 
 const serviceLinks = [
+  { label: "Cold Room Installation", href: "/services/cold-room-installation-kenya" },
+  { label: "Ammonia & CO2 Refrigeration", href: "/services/ammonia-co2-refrigeration-installation-kenya" },
+  { label: "Freon Refrigeration Systems", href: "/services/freon-refrigeration-systems-kenya" },
+  { label: "HVAC Systems", href: "/services/hvac-systems-kenya" },
   { label: "Industrial Refrigeration", href: "/services/industrial-refrigeration" },
-  { label: "HVAC Systems", href: "/services/hvac-systems" },
-  { label: "Facility Maintenance", href: "/services/facility-maintenance" },
-  { label: "Electrical Services", href: "/services/electrical-services" },
-  { label: "PLC & Automation", href: "/services/plc-automation" },
-  { label: "Packaging Line Services", href: "/services/packaging" },
+  { label: "Stainless Steel Water Tanks", href: "/products/stainless-steel-water-tanks" },
 ];
 
 export default function Footer() {
@@ -26,11 +26,8 @@ export default function Footer() {
     <footer style={{ background: "#050505" }} className="text-gray-300">
       <div className="max-w-7xl mx-auto px-6 py-16">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
-
-          {/* Brand */}
           <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="block mb-4">
-              {/* Logo is now transparent — shows naturally on dark bg */}
               <div className="bg-white rounded-xl px-3 py-2 inline-block">
                 <Image
                   src="/logo.png"
@@ -43,24 +40,14 @@ export default function Footer() {
             </Link>
             <p className="text-white font-semibold text-sm mb-1 mt-3">Power You Can Trust</p>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
-              HVAC, industrial refrigeration, facility maintenance, mechanical & electrical services — Nairobi, Kenya.
+              HVAC, industrial refrigeration, facility maintenance, mechanical and electrical services in Nairobi, Kenya.
             </p>
             <div className="space-y-1 text-xs text-gray-500 mb-5 border-l-2 pl-3" style={{ borderColor: "#55b7e5" }}>
-              <p>NCA: Refrigeration & Electrical — Grade 5</p>
-            </div>
-            <div className="flex gap-3">
-              {[Facebook, Linkedin, Twitter].map((Icon, i) => (
-                <a key={i} href="#" className="w-9 h-9 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
-                  style={{ background: "rgba(255,255,255,0.08)" }}
-                  onMouseEnter={e => (e.currentTarget.style.background = "#55b7e5")}
-                  onMouseLeave={e => (e.currentTarget.style.background = "rgba(255,255,255,0.08)")}>
-                  <Icon size={15} />
-                </a>
-              ))}
+              <p>NCA: Refrigeration and Electrical - Grade 5</p>
+              <p>EPRA: Class B certificate</p>
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h4 className="text-white font-semibold text-sm tracking-wider uppercase mb-5"
               style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.1em" }}>
@@ -78,11 +65,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Services */}
           <div>
             <h4 className="text-white font-semibold text-sm tracking-wider uppercase mb-5"
               style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.1em" }}>
-              Our Services
+              Key Services
             </h4>
             <ul className="space-y-2.5">
               {serviceLinks.map((l) => (
@@ -96,7 +82,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-white font-semibold text-sm tracking-wider uppercase mb-5"
               style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "0.1em" }}>
@@ -118,14 +103,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:Info@equiprogroup.com" className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <Mail size={14} style={{ color: "#55b7e5", flexShrink: 0 }} /> Info@equiprogroup.com
+                <a href="mailto:info@equiprogroup.com" className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
+                  <Mail size={14} style={{ color: "#55b7e5", flexShrink: 0 }} /> info@equiprogroup.com
                 </a>
               </li>
               <li>
                 <a href="https://www.equiprogroup.com" target="_blank" rel="noopener noreferrer"
                   className="flex items-center gap-3 text-sm text-gray-400 hover:text-white transition-colors">
-                  <span style={{ color: "#55b7e5", fontSize: 14, flexShrink: 0 }}>🌐</span> www.equiprogroup.com
+                  <span style={{ color: "#55b7e5", fontSize: 14, flexShrink: 0 }}>www</span> www.equiprogroup.com
                 </a>
               </li>
             </ul>
@@ -133,11 +118,10 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Bottom bar */}
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)" }}>
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row items-center justify-between gap-3">
           <p className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} Equipro Investments (K) Ltd. All Rights Reserved.
+            (c) {new Date().getFullYear()} Equipro Investments (K) Ltd. All Rights Reserved.
           </p>
           <p className="text-gray-600 text-xs italic">Power You Can Trust</p>
         </div>

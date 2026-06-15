@@ -1,6 +1,9 @@
 import ServiceDetail from "@/components/ui/ServiceDetail";
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "HVAC Systems | Equipro Services", description: "Heating, Ventilation and Air Conditioning — System Air industrial fans, Trane air handling units, Midea VRF/VRV systems. NCA 5 registered contractors in Kenya." };
+export const metadata: Metadata = {
+  title: "HVAC Systems in Kenya | Commercial & Industrial HVAC Contractors",
+  description: "HVAC systems, commercial HVAC, industrial ventilation, air handling units, VRF/VRV systems, installation and maintenance in Kenya.",
+};
 export default function Page() {
   return <ServiceDetail
     title="HVAC Systems"

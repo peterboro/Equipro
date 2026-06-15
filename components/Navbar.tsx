@@ -12,11 +12,14 @@ const navLinks = [
     label: "Services", href: "/services",
     children: [
       { label: "Industrial Refrigeration", href: "/services/industrial-refrigeration" },
-      { label: "HVAC Systems", href: "/services/hvac-systems" },
+      { label: "Cold Room Installation", href: "/services/cold-room-installation-kenya" },
+      { label: "Ammonia & CO2 Refrigeration", href: "/services/ammonia-co2-refrigeration-installation-kenya" },
+      { label: "Freon Refrigeration Systems", href: "/services/freon-refrigeration-systems-kenya" },
+      { label: "HVAC Systems Kenya", href: "/services/hvac-systems-kenya" },
       { label: "Facility Maintenance", href: "/services/facility-maintenance" },
       { label: "Electrical Services", href: "/services/electrical-services" },
       { label: "PLC & Automation", href: "/services/plc-automation" },
-      { label: "Remote Monitoring & Control", href: "/services/remote-monitoring" },
+      { label: "Remote Monitoring", href: "/services/remote-monitoring" },
     ],
   },
   {
@@ -28,6 +31,7 @@ const navLinks = [
       { label: "Condensers", href: "/products/condensers" },
       { label: "Evaporators & Glycol Coolers", href: "/products/evaporators" },
       { label: "Cold Room Equipment", href: "/products/cold-room-equipment" },
+      { label: "Stainless Steel Water Tanks", href: "/products/stainless-steel-water-tanks" },
       { label: "Packaging Equipment", href: "/products/packaging-equipment" },
     ],
   },
@@ -60,8 +64,8 @@ export default function Navbar() {
             <a href="tel:+254722514226" className="flex items-center gap-1.5 hover:text-sky-200 transition-colors">
               <Phone size={11} /> 0722-514226
             </a>
-            <a href="mailto:Info@equiprogroup.com" className="hover:text-sky-200 transition-colors">
-              Info@equiprogroup.com
+            <a href="mailto:info@equiprogroup.com" className="hover:text-sky-200 transition-colors">
+              info@equiprogroup.com
             </a>
           </div>
           <span className="text-gray-400 text-xs">Avon Center, Enterprise Road, Nairobi, Kenya</span>

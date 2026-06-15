@@ -35,7 +35,7 @@ export default function ContactPage() {
               {[
                 { icon: MapPin, title: "Office Address", lines: ["Avon Center, Enterprise Road", "P.O. Box 12636-00400", "Nairobi, Kenya"] },
                 { icon: Phone, title: "Phone", lines: ["0722-101946", "0722-514226"] },
-                { icon: Mail, title: "Email", lines: ["Info@equiprogroup.com"] },
+                { icon: Mail, title: "Email", lines: ["info@equiprogroup.com"] },
                 { icon: Globe, title: "Website", lines: ["www.equiprogroup.com"] },
                 { icon: Clock, title: "Business Hours", lines: ["Monday – Friday: 08:00 – 17:30", "24/7 Emergency Support Available"] },
               ].map((item) => (

@@ -78,6 +78,18 @@ npm run build
 npm run start
 ```
 
+## SEO Deployment Checklist
+
+- Run `npm run build` before deploying.
+- Deploy this Next.js version to production.
+- Verify `/sitemap.xml` loads.
+- Verify `/robots.txt` loads.
+- Verify important service and product pages return 200.
+- Submit the sitemap to Google Search Console.
+- Connect and verify the Google Business Profile.
+- Request client reviews.
+- Monitor indexing and search queries in Google Search Console.
+
 ## Maintenance
 
 When adding new services, products or clients, follow the existing page and component patterns so navigation, sidebars and cards stay consistent across the site.

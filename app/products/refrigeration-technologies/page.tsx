@@ -7,8 +7,8 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Refrigeration Technologies | Equipro Products",
-  description: "Freon, Ammonia (NH3) and CO2 (R744) refrigeration systems — eco-friendly, energy-efficient solutions for industrial and commercial applications in Kenya.",
+  title: "Refrigeration Technologies in Kenya | Freon, Ammonia NH3 & CO2 Systems",
+  description: "Freon, ammonia/NH3 and CO2/R744 refrigeration technologies for industrial refrigeration, cold rooms, cold storage and commercial cooling systems in Kenya.",
 };
 
 const allProducts = [

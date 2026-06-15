@@ -7,8 +7,8 @@ import { ArrowRight, CheckCircle2, ShieldCheck } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Freon Gases | Equipro Products",
-  description: "Freon refrigerant gases including R422D, R407C, R134a, R404A, R410A and R449A for HVAC, cold rooms and industrial refrigeration service work.",
+  title: "Freon Gases & Refrigeration Systems in Kenya | Equipro",
+  description: "Freon refrigerant gases and Freon refrigeration system support including R134a, R404A, R407C, R410A, R422D and R449A for HVAC, cold rooms and industrial refrigeration in Kenya.",
 };
 
 const freonProducts = [

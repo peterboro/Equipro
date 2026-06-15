@@ -2,8 +2,8 @@ import ProductDetail from "@/components/ui/ProductDetail";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Stainless Steel Water Tanks | Equipro Products",
-  description: "Stainless steel water tanks, elevated tower tanks and fabricated storage solutions for industrial and commercial utility water systems in Kenya.",
+  title: "Stainless Steel Water Tanks in Kenya | Elevated & Industrial Tanks",
+  description: "Stainless steel water tanks, elevated water tanks, tower tanks and industrial/commercial water storage systems supplied and installed in Kenya.",
 };
 
 export default function Page() {

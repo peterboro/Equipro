@@ -1,6 +1,9 @@
 import ServiceDetail from "@/components/ui/ServiceDetail";
 import type { Metadata } from "next";
-export const metadata: Metadata = { title: "Industrial Refrigeration | Equipro Services", description: "Complete turnkey industrial refrigeration solutions — Freon, NH3 and CO2 (R744) systems. Project design, installation, commissioning and 24/7 maintenance in Kenya." };
+export const metadata: Metadata = {
+  title: "Industrial Refrigeration in Kenya | Ammonia, CO2 & Freon Systems",
+  description: "Industrial refrigeration installation, ammonia/NH3 refrigeration, CO2/R744 refrigeration, Freon systems, cold storage plants, commissioning and maintenance in Kenya.",
+};
 export default function Page() {
   return <ServiceDetail
     title="Industrial Refrigeration Solutions"

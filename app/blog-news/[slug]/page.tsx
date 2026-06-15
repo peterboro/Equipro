@@ -1,8 +1,65 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import { Calendar, Clock, ArrowLeft } from "lucide-react";
-import { getPostBySlug } from "@/lib/posts";
+import { getPostBySlug, posts } from "@/lib/posts";
+
+const baseUrl = "https://equiprogroup.com";
+
+export function generateStaticParams() {
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const post = getPostBySlug(params.slug);
+
+  if (!post) {
+    return {
+      title: "Blog Article",
+      description: "Equipro Group blog article.",
+      robots: {
+        index: false,
+        follow: true,
+      },
+    };
+  }
+
+  const url = `${baseUrl}/blog-news/${post.slug}`;
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url,
+      siteName: "Equipro Group",
+      images: [
+        {
+          url: post.image,
+          alt: post.title,
+        },
+      ],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image],
+    },
+    robots: {
+      index: true,
+      follow: true,
+    },
+  };
+}
 
 export default function PostPage({ params }: { params: { slug: string } }) {
   const { slug } = params;
