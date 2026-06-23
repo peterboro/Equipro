@@ -16,6 +16,16 @@ const slides = [
     caption: "Installed refrigeration systems with access platforms, insulated pipework and controls.",
   },
   {
+    src: "/images/projects/arusha-bonite-tanzania/arusha-bonite-yoghurt-room-evaporator.jpeg",
+    title: "Arusha Bonite, Tanzania",
+    caption: "Ongoing cold room and evaporator installation works for Glacier Products Ltd.",
+  },
+  {
+    src: "/images/projects/ivory-coast-cold-storage/ivory-coast-project-01.jpeg",
+    title: "Ivory Coast Cold Storage",
+    caption: "Ongoing industrial cold storage installation progress for SBI Impianti.",
+  },
+  {
     src: "/images/gallery/equipro-project-10.jpg",
     title: "Cold Storage Loading Hall",
     caption: "Clean cold-chain loading environments with dock doors and protected circulation zones.",
