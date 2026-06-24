@@ -16,9 +16,9 @@ const slides = [
     caption: "Installed refrigeration systems with access platforms, insulated pipework and controls.",
   },
   {
-    src: "/images/projects/arusha-bonite-tanzania/arusha-bonite-yoghurt-room-evaporator.jpeg",
+    src: "/images/projects/arusha-bonite-tanzania/arusha-bonite-01.jpeg",
     title: "Arusha Bonite, Tanzania",
-    caption: "Ongoing cold room and evaporator installation works for Glacier Products Ltd.",
+    caption: "Ongoing cold room and refrigeration works for Glacier Products Ltd.",
   },
   {
     src: "/images/projects/ivory-coast-cold-storage/ivory-coast-project-01.jpeg",

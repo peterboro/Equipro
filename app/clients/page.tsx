@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 import PageHero from "@/components/ui/PageHero";
 import ClientLogo from "@/components/ui/ClientLogo";
+import ClientProjectGallery from "@/components/ClientProjectGallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -90,12 +91,8 @@ const ongoingProjects = [
     status: "Ongoing Project",
     summary:
       "Cold room and refrigeration works for yoghurt and chocolate room areas, including panel works, evaporator installation and site progress.",
-    cover: "/images/projects/arusha-bonite-tanzania/arusha-bonite-yoghurt-room-evaporator.jpeg",
+    cover: "/images/projects/arusha-bonite-tanzania/arusha-bonite-01.jpeg",
     images: [
-      {
-        src: "/images/projects/arusha-bonite-tanzania/arusha-bonite-yoghurt-room-evaporator.jpeg",
-        alt: "Installed evaporator for the yoghurt room at the Arusha Bonite Tanzania project",
-      },
       {
         src: "/images/projects/arusha-bonite-tanzania/arusha-bonite-01.jpeg",
         alt: "Cold room site preparation for Glacier Products in Tanzania",
@@ -246,67 +243,7 @@ export default function ClientsPage() {
             </p>
           </div>
 
-          <div className="space-y-8">
-            {ongoingProjects.map((project) => (
-              <article key={project.project} className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm">
-                <div className="grid lg:grid-cols-[0.9fr_1.1fr]">
-                  <a href={project.cover} target="_blank" rel="noreferrer" className="group relative min-h-[320px] overflow-hidden bg-[#111827]">
-                    <img
-                      src={project.cover}
-                      alt={`${project.project} project cover`}
-                      className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#061024]/70 via-transparent to-transparent" />
-                    <div className="absolute bottom-5 left-5 right-5">
-                      <span className="mb-3 inline-flex rounded-full bg-white/90 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[#111827]">
-                        {project.status}
-                      </span>
-                      <h3 className="text-3xl font-bold text-white" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-                        {project.project}
-                      </h3>
-                      <p className="mt-1 text-sm font-semibold text-sky-100">{project.client}</p>
-                    </div>
-                  </a>
-
-                  <div className="p-6 md:p-8">
-                    <div className="mb-5 flex flex-wrap gap-2">
-                      <span className="rounded-full bg-sky-100 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[#111827]">
-                        Client Project
-                      </span>
-                      <span className="rounded-full bg-[#111827] px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-white">
-                        {project.status}
-                      </span>
-                    </div>
-                    <p className="mb-6 max-w-2xl text-sm leading-relaxed text-gray-600">{project.summary}</p>
-
-                    <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
-                      {project.images.map((image, index) => (
-                        <a
-                          key={image.src}
-                          href={image.src}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="group relative block aspect-[4/3] overflow-hidden rounded-lg bg-gray-100"
-                          aria-label={`Open ${image.alt}`}
-                        >
-                          <img
-                            src={image.src}
-                            alt={image.alt}
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                            loading={index < 4 ? "eager" : "lazy"}
-                          />
-                          <span className="absolute left-2 top-2 rounded-full bg-white/90 px-2 py-1 text-[10px] font-bold text-[#111827]">
-                            {String(index + 1).padStart(2, "0")}
-                          </span>
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+          <ClientProjectGallery projects={ongoingProjects} />
         </div>
       </section>
 
