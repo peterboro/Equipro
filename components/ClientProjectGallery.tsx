@@ -14,6 +14,7 @@ type Project = {
   status: string;
   summary: string;
   cover: string;
+  features?: string[];
   images: ProjectImage[];
 };
 
@@ -108,6 +109,29 @@ export default function ClientProjectGallery({ projects }: ClientProjectGalleryP
                   </span>
                 </div>
                 <p className="mb-6 text-sm leading-relaxed text-gray-600">{project.summary}</p>
+
+                {project.features && project.features.length > 0 && (
+                  <div className="mb-6">
+                    <p className="mb-3 text-[10px] font-bold uppercase tracking-widest text-gray-400">Project Scope</p>
+                    <div className="flex flex-wrap gap-2">
+                      {project.features.map((feature) => (
+                        <span
+                          key={feature}
+                          className="rounded-md border border-sky-100 bg-sky-50 px-2.5 py-1.5 text-[11px] font-semibold text-[#111827]"
+                        >
+                          {feature}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                <div className="mb-5 border-l-2 border-[#55b7e5] pl-3">
+                  <p className="text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                    Photo {String(activeIndex + 1).padStart(2, "0")}
+                  </p>
+                  <p className="mt-1 text-xs leading-relaxed text-gray-600">{activeImage.alt}</p>
+                </div>
 
                 <div className="mb-5 grid grid-cols-2 gap-3">
                   <button

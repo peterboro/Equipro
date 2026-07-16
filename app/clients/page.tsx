@@ -87,6 +87,56 @@ const sectorColorMap: Record<string, string> = {
 const ongoingProjects = [
   {
     client: "Glacier Products Ltd (Dairyland)",
+    project: "Dairyland Ultra-Modern Refrigeration Facility",
+    status: "Featured Client Project",
+    summary:
+      "An advanced industrial refrigeration installation for Dairyland, built around an ammonia (NH3) and carbon dioxide (CO2) cascade system. The integrated facility supports dependable temperature control across cold rooms, chiller rooms and freezer rooms, with serviceable plant layouts, insulated pipework and automated controls.",
+    features: [
+      "NH3 / CO2 Cascade System",
+      "Cold Rooms",
+      "Chiller Rooms",
+      "Freezer Rooms",
+      "Automated Controls",
+      "Industrial Plant Room",
+    ],
+    cover: "/images/projects/dairyland-ultra-modern-facility/dairyland-01.jpeg",
+    images: [
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-01.jpeg",
+        alt: "Wide view of Dairyland's ultra-modern NH3 and CO2 cascade refrigeration plant",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-02.jpeg",
+        alt: "Insulated refrigeration pipework and service infrastructure at the Dairyland facility",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-03.jpeg",
+        alt: "Industrial pressure vessels and insulated pipework serving Dairyland's refrigeration system",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-04.jpeg",
+        alt: "Ammonia and carbon dioxide cascade refrigeration vessels and equipment at Dairyland",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-05.jpeg",
+        alt: "Industrial compressor line and overhead refrigeration services at the Dairyland plant",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-06.jpeg",
+        alt: "Automated compressor package with operator control panel at Dairyland",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-07.jpeg",
+        alt: "Insulated vessels and precision pipework within Dairyland's cascade refrigeration plant",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-08.jpeg",
+        alt: "Vertical view through the insulated pipework and steel structure of the Dairyland plant",
+      },
+    ],
+  },
+  {
+    client: "Glacier Products Ltd (Dairyland)",
     project: "Arusha Bonite, Tanzania",
     status: "Ongoing Project",
     summary:
@@ -228,18 +278,18 @@ export default function ClientsPage() {
         </div>
       </section>
 
-      {/* Ongoing Project Galleries */}
+      {/* Client Project Galleries */}
       <section className="py-20 bg-[#f4f6f8]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
-              <span className="inline-block text-[#55b7e5] text-xs font-bold tracking-widest uppercase mb-3">Ongoing Work</span>
+              <span className="inline-block text-[#55b7e5] text-xs font-bold tracking-widest uppercase mb-3">Client Installations</span>
               <h2 className="text-4xl font-bold text-[#111827]" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
                 Project Photos by Client
               </h2>
             </div>
             <p className="max-w-xl text-sm leading-relaxed text-gray-500">
-              Current Equipro project progress, grouped by client so each site can be reviewed clearly.
+              Selected installations and current project progress, grouped by client so each facility can be reviewed clearly.
             </p>
           </div>
 

@@ -6,6 +6,11 @@ import { ArrowLeft, ArrowRight, Maximize2, Pause, Play } from "lucide-react";
 
 const slides = [
   {
+    src: "/images/projects/dairyland-ultra-modern-facility/dairyland-01.jpeg",
+    title: "Dairyland Ultra-Modern Facility",
+    caption: "NH3 and CO2 cascade refrigeration supporting cold rooms, chiller rooms and freezer rooms.",
+  },
+  {
     src: "/images/gallery/equipro-project-56.jpg",
     title: "Industrial Refrigeration Plant",
     caption: "Pipework, vessels and refrigeration infrastructure for large-scale cooling operations.",
