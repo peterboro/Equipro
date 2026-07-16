@@ -98,6 +98,8 @@ const ongoingProjects = [
       "Freezer Rooms",
       "Automated Controls",
       "Industrial Plant Room",
+      "Temperature-Controlled Warehousing",
+      "Refrigerated Loading Areas",
     ],
     cover: "/images/projects/dairyland-ultra-modern-facility/dairyland-01.jpeg",
     images: [
@@ -132,6 +134,98 @@ const ongoingProjects = [
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-08.jpeg",
         alt: "Vertical view through the insulated pipework and steel structure of the Dairyland plant",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-09.jpeg",
+        alt: "Three-fan evaporator serving a tall temperature-controlled Dairyland corridor",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-10.jpeg",
+        alt: "Safety and dock equipment within Dairyland's temperature-controlled loading area",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-11.jpeg",
+        alt: "Long cold-storage corridor fitted with ceiling-mounted evaporators at Dairyland",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-12.jpeg",
+        alt: "Wall-mounted two-fan evaporator inside an insulated Dairyland cold room",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-13.jpeg",
+        alt: "High-bay cold-store racking with overhead evaporators and pallet storage",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-14.jpeg",
+        alt: "Empty high-bay pallet racking within Dairyland's ultra-modern cold store",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-15.jpeg",
+        alt: "Compact two-fan evaporator installed in a Dairyland cold room",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-16.jpeg",
+        alt: "Dual evaporator installation serving Dairyland's high-bay refrigerated storage",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-17.jpeg",
+        alt: "Two-fan evaporator installed within an insulated Dairyland cold room",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-18.jpeg",
+        alt: "Three-fan evaporator serving a temperature-controlled Dairyland corridor",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-19.jpeg",
+        alt: "Operational cold-storage corridor with pallet staging and ceiling evaporators",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-20.jpeg",
+        alt: "High-bay cold-store racking served by two overhead evaporators",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-21.jpeg",
+        alt: "Insulated Dairyland corridor with multiple sliding cold-room doors",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-22.jpeg",
+        alt: "Close view of a three-fan ceiling evaporator in the Dairyland facility",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-23.jpeg",
+        alt: "Three-fan evaporator installed in a tall refrigerated Dairyland corridor",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-24.jpeg",
+        alt: "Wall-mounted two-fan evaporator with condensate piping in a cold room",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-25.jpeg",
+        alt: "Operational cold-store corridor with pallet storage and refrigeration equipment",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-26.jpeg",
+        alt: "Clean temperature-controlled processing and storage area with insulated rooms",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-27.jpeg",
+        alt: "High-bay Dairyland racking with overhead evaporator units",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-28.jpeg",
+        alt: "Spacious refrigerated Dairyland loading area with forklifts and dock equipment",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-29.jpeg",
+        alt: "Insulated cold-room entrances with multiple evaporator installations",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-30.jpeg",
+        alt: "Broad refrigerated loading bay with dock doors and safety barriers",
+      },
+      {
+        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-31.jpeg",
+        alt: "Line of Dairyland cold-room doors with overhead evaporators and services",
       },
     ],
   },

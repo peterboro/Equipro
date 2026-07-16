@@ -150,16 +150,17 @@ export default function ClientProjectGallery({ projects }: ClientProjectGalleryP
                   </button>
                 </div>
 
-                <div className="grid grid-cols-4 gap-2">
+                <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-2">
                   {project.images.map((image, index) => (
                     <button
                       key={image.src}
                       type="button"
                       onClick={() => updateActive(projectIndex, index)}
-                      className={`relative aspect-[4/3] overflow-hidden rounded-md border transition-colors ${
+                      className={`relative aspect-[4/3] w-20 shrink-0 overflow-hidden rounded-md border transition-colors ${
                         activeIndex === index ? "border-[#55b7e5] ring-2 ring-sky-100" : "border-transparent hover:border-gray-300"
                       }`}
                       aria-label={`Show image ${index + 1} for ${project.project}`}
+                      aria-current={activeIndex === index ? "true" : undefined}
                     >
                       <img src={image.src} alt="" className="h-full w-full object-cover" loading="lazy" />
                     </button>
