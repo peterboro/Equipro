@@ -58,6 +58,11 @@ const clients = [
     services: ["Cold Rooms Installation", "Stainless Steel Tanks Supply & Installation", "HVAC System Installation", "Ammonia / CO2 Cascade Refrigeration System Installation"],
   },
   {
+    name: "Don Bosco Utume", initials: "DBU", sector: "Education & Institutional Infrastructure - Kenya",
+    localLogo: "/images/logos/don-bosco-utume.jpeg",
+    services: ["Stainless Steel Water Tanks Supply & Installation", "Rainwater Harvesting System", "Elevated Water Storage Infrastructure"],
+  },
+  {
     name: "White Field Agroprocessing Ltd", initials: "WFA", sector: "Cold Storage — Kano State, Nigeria (Complete)",
     localLogo: "/images/logos/whitefield.jpg",
     services: ["Cold Storage Facility Installation", "Ammonia Refrigeration System for Onion Storage"],
@@ -226,6 +231,43 @@ const ongoingProjects = [
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-31.jpeg",
         alt: "Line of Dairyland cold-room doors with overhead evaporators and services",
+      },
+    ],
+  },
+  {
+    client: "Don Bosco Utume",
+    project: "Stainless Steel Water Storage & Rainwater Harvesting",
+    status: "Completed Project",
+    summary:
+      "Supply and installation of elevated stainless steel water tanks and supporting tower structures, integrated with rainwater-harvesting infrastructure to strengthen on-site water storage. The system provides durable, hygienic reserve capacity together with safe access for inspection and maintenance.",
+    features: [
+      "Stainless Steel Water Tanks",
+      "Rainwater Harvesting",
+      "Elevated Tower Structures",
+      "Structural Support Works",
+      "Safe Maintenance Access",
+    ],
+    cover: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-01.jpeg",
+    images: [
+      {
+        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-01.jpeg",
+        alt: "Installed stainless steel water storage tank at Don Bosco Utume",
+      },
+      {
+        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-02.jpeg",
+        alt: "Completed elevated stainless steel water tanks and access towers at Don Bosco Utume",
+      },
+      {
+        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-03.jpeg",
+        alt: "Twin elevated stainless steel water tanks supporting the rainwater harvesting system",
+      },
+      {
+        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-04.jpeg",
+        alt: "Steel tower structures prepared for the Don Bosco Utume water tank installation",
+      },
+      {
+        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-05.jpeg",
+        alt: "Elevated tank platform and structural installation works at Don Bosco Utume",
       },
     ],
   },

@@ -45,9 +45,9 @@ export default function ClientProjectGallery({ projects }: ClientProjectGalleryP
         const activeImage = project.images[activeIndex] ?? project.images[0];
 
         return (
-          <article key={project.project} className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm">
-            <div className="grid lg:grid-cols-[minmax(0,1fr)_420px]">
-              <div className="relative min-h-[360px] overflow-hidden bg-[#111827] md:min-h-[520px]">
+          <article key={project.project} className="min-w-0 overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm">
+            <div className="grid min-w-0 grid-cols-[minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_420px]">
+              <div className="relative min-h-[360px] min-w-0 overflow-hidden bg-[#111827] md:min-h-[520px]">
                 <img
                   src={activeImage.src}
                   alt={activeImage.alt}
@@ -92,14 +92,14 @@ export default function ClientProjectGallery({ projects }: ClientProjectGalleryP
                   <span className="mb-3 inline-flex rounded-full bg-white/90 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[#111827]">
                     {project.status}
                   </span>
-                  <h3 className="text-3xl font-bold text-white" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                  <h3 className="break-words text-3xl font-bold text-white" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
                     {project.project}
                   </h3>
                   <p className="mt-1 text-sm font-semibold text-sky-100">{project.client}</p>
                 </div>
               </div>
 
-              <div className="flex flex-col p-6 md:p-8">
+              <div className="flex min-w-0 flex-col p-6 md:p-8">
                 <div className="mb-5 flex flex-wrap gap-2">
                   <span className="rounded-full bg-sky-100 px-3 py-1 text-[10px] font-bold uppercase tracking-widest text-[#111827]">
                     Client Project

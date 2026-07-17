@@ -14,6 +14,7 @@ const clients = [
   { name: "Crown Farms Ltd", sector: "Agriculture — Delta, Nigeria", initials: "CFL", localLogo: "/images/logos/crownfarms.png" },
   { name: "SBI Impianti (SARL)", sector: "Cold Storage — Ivory Coast", initials: "SBI", localLogo: "/images/logos/sbimpianti.png" },
   { name: "Glacier Products Ltd (Dairyland)", sector: "Cold Storage — Tanzania & Kenya", initials: "GPL", localLogo: "/images/logos/dairyland.png" },
+  { name: "Don Bosco Utume", sector: "Education & Water Infrastructure", initials: "DBU", localLogo: "/images/logos/don-bosco-utume.jpeg" },
   { name: "White Field Agroprocessing Ltd", sector: "Cold Storage — Kano, Nigeria", initials: "WFA", localLogo: "/images/logos/whitefield.jpg" },
   { name: "KAPA Oil Refineries Ltd", sector: "HVAC / Air Conditioning", initials: "KOR", localLogo: "/images/logos/kapaoil.png" },
   { name: "Cold Solutions Kenya Ltd", sector: "Industrial Refrigeration", initials: "CSK", localLogo: "/images/logos/ColdSolutionsKenya.jpg" },
