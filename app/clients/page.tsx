@@ -95,16 +95,16 @@ const ongoingProjects = [
     project: "Dairyland Ultra-Modern Refrigeration Facility",
     status: "Featured Client Project",
     summary:
-      "An advanced industrial refrigeration installation for Dairyland, built around an ammonia (NH3) and carbon dioxide (CO2) cascade system. The integrated facility supports dependable temperature control across cold rooms, chiller rooms and freezer rooms, with serviceable plant layouts, insulated pipework and automated controls.",
+      "An ultra-modern dairy refrigeration facility built around an ammonia (NH3) and carbon dioxide (CO2) cascade system. The installation combines industrial compressor plant, insulated process pipework, automated controls, cold and chiller rooms, freezer rooms and high-bay refrigerated storage.",
     features: [
       "NH3 / CO2 Cascade System",
+      "Industrial Compressor Plant",
       "Cold Rooms",
       "Chiller Rooms",
       "Freezer Rooms",
       "Automated Controls",
-      "Industrial Plant Room",
-      "Temperature-Controlled Warehousing",
-      "Refrigerated Loading Areas",
+      "High-Bay Refrigerated Storage",
+      "Insulated Process Pipework",
     ],
     cover: "/images/projects/dairyland-ultra-modern-facility/dairyland-01.jpeg",
     images: [
@@ -114,19 +114,19 @@ const ongoingProjects = [
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-02.jpeg",
-        alt: "Insulated refrigeration pipework and service infrastructure at the Dairyland facility",
+        alt: "Dairyland compressor package and insulated process pipework",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-03.jpeg",
-        alt: "Industrial pressure vessels and insulated pipework serving Dairyland's refrigeration system",
+        alt: "Industrial screw compressor and control equipment at the Dairyland facility",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-04.jpeg",
-        alt: "Ammonia and carbon dioxide cascade refrigeration vessels and equipment at Dairyland",
+        alt: "Insulated pressure vessels within Dairyland's cascade refrigeration plant",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-05.jpeg",
-        alt: "Industrial compressor line and overhead refrigeration services at the Dairyland plant",
+        alt: "Process pipework and refrigeration vessels serving the Dairyland facility",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-06.jpeg",
@@ -134,104 +134,97 @@ const ongoingProjects = [
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-07.jpeg",
-        alt: "Insulated vessels and precision pipework within Dairyland's cascade refrigeration plant",
+        alt: "Steel-framed refrigeration plant with vessels and insulated services",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-08.jpeg",
-        alt: "Vertical view through the insulated pipework and steel structure of the Dairyland plant",
+        alt: "Integrated compressor line and overhead refrigeration pipework at Dairyland",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-09.jpeg",
-        alt: "Three-fan evaporator serving a tall temperature-controlled Dairyland corridor",
+        alt: "Dairyland cascade plant vessels and service platforms",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-10.jpeg",
-        alt: "Safety and dock equipment within Dairyland's temperature-controlled loading area",
+        alt: "Industrial refrigeration compressor installation at Dairyland",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-11.jpeg",
-        alt: "Long cold-storage corridor fitted with ceiling-mounted evaporators at Dairyland",
+        alt: "Refrigeration vessels, compressors and insulated pipework at Dairyland",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-12.jpeg",
-        alt: "Wall-mounted two-fan evaporator inside an insulated Dairyland cold room",
+        alt: "Plant-room compressor and automated control installation",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-13.jpeg",
-        alt: "High-bay cold-store racking with overhead evaporators and pallet storage",
+        alt: "Close view of Dairyland's industrial compressor and services",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-14.jpeg",
-        alt: "Empty high-bay pallet racking within Dairyland's ultra-modern cold store",
+        alt: "Complete cascade refrigeration plant-room installation at Dairyland",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-15.jpeg",
-        alt: "Compact two-fan evaporator installed in a Dairyland cold room",
+        alt: "Temperature-controlled Dairyland corridor with ceiling evaporators",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-16.jpeg",
-        alt: "Dual evaporator installation serving Dairyland's high-bay refrigerated storage",
+        alt: "Cold-room evaporator installation at Dairyland",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-17.jpeg",
-        alt: "Two-fan evaporator installed within an insulated Dairyland cold room",
+        alt: "High-bay refrigerated pallet storage with overhead evaporators",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-18.jpeg",
-        alt: "Three-fan evaporator serving a temperature-controlled Dairyland corridor",
+        alt: "Dairyland high-bay cold store and racking installation",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-19.jpeg",
-        alt: "Operational cold-storage corridor with pallet staging and ceiling evaporators",
+        alt: "Refrigerated warehouse racking served by ceiling evaporators",
       },
       {
         src: "/images/projects/dairyland-ultra-modern-facility/dairyland-20.jpeg",
-        alt: "High-bay cold-store racking served by two overhead evaporators",
+        alt: "Bright temperature-controlled corridor connecting Dairyland cold rooms",
       },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-21.jpeg",
-        alt: "Insulated Dairyland corridor with multiple sliding cold-room doors",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-22.jpeg",
-        alt: "Close view of a three-fan ceiling evaporator in the Dairyland facility",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-23.jpeg",
-        alt: "Three-fan evaporator installed in a tall refrigerated Dairyland corridor",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-24.jpeg",
-        alt: "Wall-mounted two-fan evaporator with condensate piping in a cold room",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-25.jpeg",
-        alt: "Operational cold-store corridor with pallet storage and refrigeration equipment",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-26.jpeg",
-        alt: "Clean temperature-controlled processing and storage area with insulated rooms",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-27.jpeg",
-        alt: "High-bay Dairyland racking with overhead evaporator units",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-28.jpeg",
-        alt: "Spacious refrigerated Dairyland loading area with forklifts and dock equipment",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-29.jpeg",
-        alt: "Insulated cold-room entrances with multiple evaporator installations",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-30.jpeg",
-        alt: "Broad refrigerated loading bay with dock doors and safety barriers",
-      },
-      {
-        src: "/images/projects/dairyland-ultra-modern-facility/dairyland-31.jpeg",
-        alt: "Line of Dairyland cold-room doors with overhead evaporators and services",
-      },
+    ],
+  },
+  {
+    client: "Cold Solutions Kenya Ltd",
+    project: "Cold Solutions Kenya Cold Chain Facility",
+    status: "Featured Client Project",
+    summary:
+      "An industrial refrigeration and temperature-controlled logistics facility integrating multi-compressor systems, insulated pipework, evaporators, cold rooms, loading-bay infrastructure and supporting circulation equipment for dependable cold-chain operations.",
+    features: [
+      "Industrial Compressor Systems",
+      "Insulated Refrigeration Pipework",
+      "Valve Stations & Controls",
+      "Cold Rooms & Evaporators",
+      "Temperature-Controlled Loading Bays",
+      "Pump & Circulation Services",
+    ],
+    cover: "/images/projects/cold-solutions-kenya/cold-solutions-01.jpeg",
+    images: [
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-01.jpeg", alt: "Industrial refrigeration compressor plant at Cold Solutions Kenya" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-02.jpeg", alt: "Multi-compressor installation and control equipment at Cold Solutions Kenya" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-03.jpeg", alt: "Insulated refrigeration pipework and compressor services" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-04.jpeg", alt: "Industrial compressor package with operator control panel" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-05.jpeg", alt: "Refrigeration plant controls and insulated process piping" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-06.jpeg", alt: "Compressor and valve station installation at Cold Solutions Kenya" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-07.jpeg", alt: "Integrated refrigeration plant with insulated pipework" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-08.jpeg", alt: "Industrial compressor racks and plant-room services" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-09.jpeg", alt: "Refrigeration compressor system and control infrastructure" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-10.jpeg", alt: "Cold-store loading interface and insulated facility structure" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-11.jpeg", alt: "Temperature-controlled warehouse with ceiling-mounted evaporator" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-12.jpeg", alt: "Cold-room evaporator and insulated wall installation" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-13.jpeg", alt: "Insulated refrigeration valve and pipework connection" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-14.jpeg", alt: "External condenser plant and colour-coded refrigeration pipework" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-15.jpeg", alt: "Refrigerated delivery vehicle at a Cold Solutions loading dock" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-16.jpeg", alt: "Large temperature-controlled loading hall with evaporators" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-17.jpeg", alt: "Cold-store doors, loading bays and safety infrastructure" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-18.jpeg", alt: "Temperature-controlled logistics hall and insulated loading doors" },
+      { src: "/images/projects/cold-solutions-kenya/cold-solutions-19.jpeg", alt: "Circulation pumps and process pipework supporting the refrigeration plant" },
     ],
   },
   {
@@ -398,16 +391,16 @@ export default function ClientsPage() {
       {/* Stats */}
       <section className="py-14 bg-[#111827]">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 gap-x-4 gap-y-8 text-center md:grid-cols-4 md:gap-8">
             {[
               { num: "15+", label: "Major Clients" },
               { num: "16+", label: "Years Track Record" },
               { num: "Multi-sector", label: "Industry Coverage" },
               { num: "Regional Projects", label: "Work delivered across Kenya, Nigeria, Tanzania & Ivory Coast" },
             ].map((s) => (
-              <div key={s.label}>
-                <div className="text-3xl md:text-4xl font-bold text-white mb-1" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{s.num}</div>
-                <div className="text-sky-100 text-sm">{s.label}</div>
+              <div key={s.label} className="min-w-0">
+                <div className="break-words text-2xl font-bold text-white sm:text-3xl md:text-4xl" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>{s.num}</div>
+                <div className="mt-1 break-words text-xs text-sky-100 sm:text-sm">{s.label}</div>
               </div>
             ))}
           </div>
