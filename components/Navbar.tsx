@@ -6,39 +6,70 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "/about-us" },
   {
-    label: "Services", href: "/services",
-    children: [
-      { label: "Industrial Refrigeration", href: "/services/industrial-refrigeration" },
-      { label: "Cold Room Installation", href: "/services/cold-room-installation-kenya" },
-      { label: "Ammonia & CO2 Refrigeration", href: "/services/ammonia-co2-refrigeration-installation-kenya" },
-      { label: "Freon Refrigeration Systems", href: "/services/freon-refrigeration-systems-kenya" },
-      { label: "HVAC Systems Kenya", href: "/services/hvac-systems-kenya" },
-      { label: "Facility Maintenance", href: "/services/facility-maintenance" },
-      { label: "Electrical Services", href: "/services/electrical-services" },
-      { label: "PLC & Automation", href: "/services/plc-automation" },
-      { label: "Remote Monitoring", href: "/services/remote-monitoring" },
-    ],
+    "label": "Home",
+    "href": "/"
   },
   {
-    label: "Products", href: "/products",
-    children: [
-      { label: "Refrigeration Technologies", href: "/products/refrigeration-technologies" },
-      { label: "Freon Gases", href: "/products/freon-gases" },
-      { label: "Compressors", href: "/products/compressors" },
-      { label: "Condensers", href: "/products/condensers" },
-      { label: "Evaporators & Glycol Coolers", href: "/products/evaporators" },
-      { label: "Cold Room Equipment", href: "/products/cold-room-equipment" },
-      { label: "Stainless Steel Water Tanks", href: "/products/stainless-steel-water-tanks" },
-      { label: "Packaging Equipment", href: "/products/packaging-equipment" },
-    ],
+    "label": "Refrigeration",
+    "href": "/services/refrigeration",
+    "children": [
+      {
+        "label": "All Refrigeration Solutions",
+        "href": "/services/refrigeration"
+      },
+      {
+        "label": "Cold Rooms & Freezer Rooms",
+        "href": "/services/cold-room-installation-kenya"
+      },
+      {
+        "label": "Industrial Refrigeration",
+        "href": "/services/industrial-refrigeration"
+      },
+      {
+        "label": "Ammonia & CO2 Systems",
+        "href": "/services/ammonia-co2-refrigeration-installation-kenya"
+      },
+      {
+        "label": "Freon Systems",
+        "href": "/services/freon-refrigeration-systems-kenya"
+      },
+      {
+        "label": "Equipment & Refrigerants",
+        "href": "/products"
+      }
+    ]
   },
-  { label: "Clients", href: "/clients" },
-  { label: "Gallery", href: "/#gallery" },
-  { label: "Blog / News", href: "/blog-news" },
-  { label: "Contact", href: "/contact" },
+  {
+    "label": "HVAC",
+    "href": "/services/hvac-systems-kenya",
+    "children": [
+      {
+        "label": "HVAC Systems",
+        "href": "/services/hvac-systems-kenya"
+      },
+      {
+        "label": "Maintenance & Repairs",
+        "href": "/services/facility-maintenance"
+      },
+      {
+        "label": "Controls & Monitoring",
+        "href": "/services/plc-automation"
+      }
+    ]
+  },
+  {
+    "label": "Projects",
+    "href": "/clients"
+  },
+  {
+    "label": "About",
+    "href": "/about-us"
+  },
+  {
+    "label": "Contact",
+    "href": "/contact"
+  }
 ];
 
 export default function Navbar() {
@@ -136,7 +167,7 @@ export default function Navbar() {
               className="flex items-center gap-2 text-white px-5 py-2.5 rounded-lg text-[13px] font-semibold transition-all duration-200 shadow-md hover:opacity-90"
               style={{ background: "#55b7e5" }}
             >
-              <Phone size={13} /> Get a Quote
+              <Phone size={13} /> Request a Quote
             </Link>
           </div>
 
@@ -145,6 +176,7 @@ export default function Navbar() {
             onClick={() => setMobileOpen(!mobileOpen)}
             className="lg:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100"
             aria-label="Toggle menu"
+            aria-expanded={mobileOpen}
           >
             {mobileOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -166,7 +198,7 @@ export default function Navbar() {
                     <div className="flex items-center justify-between">
                       <Link
                         href={link.href}
-                        onClick={() => !link.children && setMobileOpen(false)}
+                        onClick={() => setMobileOpen(false)}
                         className="flex-1 px-3 py-2.5 text-[13px] font-medium text-gray-700 hover:text-[#111827] hover:bg-sky-50 rounded-lg transition-colors block"
                       >
                         {link.label}
@@ -174,6 +206,8 @@ export default function Navbar() {
                       {link.children && (
                         <button
                           onClick={() => setMobileExpanded(mobileExpanded === link.label ? null : link.label)}
+                          aria-label={`Expand ${link.label} menu`}
+                          aria-expanded={mobileExpanded === link.label}
                           className="p-2 text-gray-400"
                         >
                           <ChevronDown size={14} className={`transition-transform ${mobileExpanded === link.label ? "rotate-180" : ""}`} />
@@ -203,7 +237,7 @@ export default function Navbar() {
                     className="flex items-center justify-center gap-2 text-white py-3 rounded-lg text-[13px] font-semibold w-full"
                     style={{ background: "#55b7e5" }}
                   >
-                    <Phone size={14} /> Get a Quote
+                    <Phone size={14} /> Request a Quote
                   </Link>
                 </div>
               </div>

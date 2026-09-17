@@ -32,7 +32,7 @@ export default function HvacSystemsKenyaPage() {
       ]}
       relatedLinks={[
         { label: "HVAC Systems Service", href: "/services/hvac-systems" },
-        { label: "Facility Maintenance", href: "/services/facility-maintenance" },
+        { label: "Refrigeration & HVAC Maintenance", href: "/services/facility-maintenance" },
         { label: "Remote Monitoring", href: "/services/remote-monitoring" },
         { label: "Contact Equipro", href: "/contact" },
       ]}

@@ -5,16 +5,11 @@ import { ArrowRight } from "lucide-react";
 import ClientLogo from "@/components/ui/ClientLogo";
 
 const clients = [
-  { name: "NAS (Ennsvalley Bakery Ltd)", sector: "Food & Bakery", initials: "NAS", localLogo: "/images/logos/ennsvalleybakery.jpg" },
-  { name: "Norbrook Kenya Ltd", sector: "Pharmaceuticals", initials: "NBK", localLogo: "/images/logos/norbrook.png" },
-  { name: "Trufoods Ltd", sector: "Food Processing", initials: "TRU", localLogo: "/images/logos/trufoods.png" },
-  { name: "Interconsumer Products Ltd", sector: "FMCG", initials: "ICP", localLogo: "/images/logos/interconsumer.png" },
   { name: "Kibo Seed Company Ltd", sector: "Agriculture", initials: "KSC", localLogo: "/images/logos/KiboSeed.jpg" },
   { name: "Simlaw Seeds", sector: "Agriculture", initials: "SLS", localLogo: "/images/logos/simlawseeds.png" },
   { name: "Crown Farms Ltd", sector: "Agriculture — Delta, Nigeria", initials: "CFL", localLogo: "/images/logos/crownfarms.png" },
   { name: "SBI Impianti (SARL)", sector: "Cold Storage — Ivory Coast", initials: "SBI", localLogo: "/images/logos/sbimpianti.png" },
   { name: "Glacier Products Ltd (Dairyland)", sector: "Cold Storage — Tanzania & Kenya", initials: "GPL", localLogo: "/images/logos/dairyland.png" },
-  { name: "Don Bosco Utume", sector: "Education & Water Infrastructure", initials: "DBU", localLogo: "/images/logos/don-bosco-utume.jpeg" },
   { name: "White Field Agroprocessing Ltd", sector: "Cold Storage — Kano, Nigeria", initials: "WFA", localLogo: "/images/logos/whitefield.jpg" },
   { name: "KAPA Oil Refineries Ltd", sector: "HVAC / Air Conditioning", initials: "KOR", localLogo: "/images/logos/kapaoil.png" },
   { name: "Cold Solutions Kenya Ltd", sector: "Industrial Refrigeration", initials: "CSK", localLogo: "/images/logos/ColdSolutionsKenya.jpg" },
@@ -34,7 +29,7 @@ export default function Clients() {
           <span className="inline-block text-[#55b7e5] text-xs font-bold tracking-widest uppercase mb-3">Trusted By</span>
           <h2 className="text-4xl md:text-5xl font-bold text-[#111827] mb-4" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>Our Clients</h2>
           <p className="text-gray-500 max-w-xl mx-auto text-sm leading-relaxed">
-            Reputed organisations across food processing, pharmaceuticals, agriculture, government and cold storage sectors — Kenya and beyond.
+            Reputed organisations across food processing, agriculture, manufacturing and cold storage sectors — Kenya and beyond.
           </p>
           <div className="w-12 h-1 rounded-full mx-auto mt-5" style={{ background: "linear-gradient(90deg, #55b7e5, #111827)" }} />
         </motion.div>

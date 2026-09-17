@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us | Equipro Investments (K) Ltd",
-  description: "Established in 2007, Equipro Investments (K) Ltd is a specialist in electromechanical systems, HVAC, industrial refrigeration and facility maintenance in Nairobi, Kenya.",
+  description: "Established in 2007, Equipro Investments (K) Ltd is a specialist in commercial and industrial refrigeration and HVAC in Nairobi, Kenya.",
 };
 
 const coreValues = [
@@ -25,7 +25,7 @@ export default function AboutPage() {
       <Navbar />
       <PageHero
         title="About Equipro Group"
-        subtitle="Power You Can Trust — established in 2007 as a specialist in electromechanical systems, HVAC, and industrial refrigeration."
+        subtitle="Power You Can Trust — established in 2007 as a specialist in commercial and industrial refrigeration and HVAC."
         breadcrumbs={[{ label: "About Us" }]}
         image="/images/gallery/equipro-project-10.jpg"
       />
@@ -40,19 +40,19 @@ export default function AboutPage() {
                 Equipro Investments<br /><span className="text-[#55b7e5]">(K) Ltd</span>
               </h2>
               <div className="space-y-4 text-gray-600 text-[15px] leading-relaxed">
-                <p>Equipro Investments (K) Ltd was established in 2007 as an electromechanical systems design, installation and commissioning company. We are specialists in packaging materials and packaging equipment, temperature monitoring, home automation, lighting controls, and mechanical & electrical works as unique systems based on customer requirements.</p>
+                <p>Established in 2007, Equipro Investments (K) Ltd provides complete refrigeration and HVAC solutions for commercial and industrial customers. We handle design, equipment supply, installation, commissioning and ongoing maintenance, with cooling systems tailored to each facility.</p>
                 <p>We are fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5, and we hold an EPRA Class B certificate. These registrations underscore our capability and commitment to delivering compliant, professional work across both disciplines.</p>
-                <p>We have a wealth of experience delivering projects and a proven track record in all market sectors — both industrial and private. We take great care to understand our client's requirements and make sure we deliver to those requirements, supported by a client-focused attitude and proven experience.</p>
+                <p>We have a wealth of experience delivering projects and a proven track record for commercial and industrial customers. We take great care to understand our client's requirements and make sure we deliver to those requirements, supported by a client-focused attitude and proven experience.</p>
               </div>
               <ul className="mt-8 space-y-3">
                 {[
-                  "Electromechanical systems design & commissioning",
+                  "Refrigeration and HVAC design & commissioning",
                   "NCA 5 registered — Refrigeration, AC & Electrical",
                   "EPRA Class B certificate",
-                  "Packaging equipment supply, installation & maintenance",
-                  "Temperature monitoring & home automation systems",
-                  "Lighting controls & facility management",
-                  "Industrial and private sector project delivery",
+                  "Refrigeration and HVAC equipment supply & installation",
+                  "Temperature monitoring & cooling system controls",
+                  "Planned maintenance, repairs & system support",
+                  "Commercial and industrial project delivery",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-3 text-gray-700 text-sm">
                     <CheckCircle2 size={17} className="text-[#55b7e5] flex-shrink-0" /> {item}
@@ -82,7 +82,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 text-center">
             {[
               { num: "2007", label: "Year Established" },
-              { num: "16+", label: "Years Experience" },
+              { num: "Full", label: "Project Delivery" },
               { num: "NCA 5", label: "Registered Grade" },
               { num: "EPRA B", label: "Class B Certificate" },
               { num: "24/7", label: "Support Available" },

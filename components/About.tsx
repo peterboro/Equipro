@@ -4,13 +4,13 @@ import { CheckCircle2, Shield, Zap, Award } from "lucide-react";
 import Link from "next/link";
 
 const highlights = [
-  "Electromechanical systems design, installation & commissioning",
+  "Refrigeration and HVAC design, installation & commissioning",
   "Registered NCA 5 — Refrigeration, Air Conditioning & Electrical",
   "EPRA Class B certificate",
-  "Industrial and private projects across all market sectors",
+  "Commercial and industrial project delivery",
   "Client-focused approach — on time, within budget",
-  "Packaging materials, temperature monitoring & home automation",
-  "Lighting controls, mechanical & electrical works",
+  "Cold rooms, freezer rooms and refrigeration systems",
+  "Cooling system controls and planned maintenance",
 ];
 
 const stats = [
@@ -50,8 +50,8 @@ export default function About() {
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.5 }}
             >
-              <div className="text-4xl font-bold mb-1" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>16+</div>
-              <div className="text-sky-100 text-sm">Years of Engineering Excellence</div>
+              <div className="text-4xl font-bold mb-1" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>2007</div>
+              <div className="text-sky-100 text-sm">Established in Nairobi</div>
             </motion.div>
             {/* Red accent */}
             <div className="absolute -top-4 -left-4 w-20 h-20 bg-[#55b7e5]/10 rounded-xl -z-10" />
@@ -69,10 +69,10 @@ export default function About() {
               About<br /><span className="text-[#55b7e5]">Equipro Group</span>
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4 text-[15px]">
-              Equipro Investments (K) Ltd was established in 2007 as an electromechanical systems design, installation and commissioning company. We are specialists in packaging materials, packaging equipment, temperature monitoring, home automation, lighting controls, and mechanical & electrical works.
+              Established in 2007, Equipro Investments (K) Ltd provides complete refrigeration and HVAC solutions for commercial and industrial customers. We handle design, equipment supply, installation, commissioning and ongoing maintenance, with cooling systems tailored to each facility.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6 text-[15px]">
-              Fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5, and holding an EPRA Class B certificate, we have a wealth of experience and a proven track record across all market sectors — both industrial and private projects.
+              Fully registered with NCA as a refrigeration and air conditioning contractor NCA 5 and Electrical contractor NCA 5, and holding an EPRA Class B certificate, we have a wealth of experience and a proven track record across commercial and industrial facilities.
             </p>
 
             <ul className="space-y-3 mb-8">

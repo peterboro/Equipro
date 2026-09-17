@@ -40,15 +40,6 @@ const products = [
     tag: "Cold Room",
     imageClass: "object-cover",
   },
-  {
-    title: "Stainless Steel Water Tanks",
-    subtitle: "Storage | Tower Tanks | Fabrication",
-    description: "Durable stainless steel water tanks and elevated tower tank systems for commercial and industrial facilities.",
-    image: "/images/stainless-steel-water-tower-tanks.jpeg",
-    href: "/products/stainless-steel-water-tanks",
-    tag: "Water Storage",
-    imageClass: "object-cover",
-  },
 ];
 
 const containerVariants = { hidden: {}, visible: { transition: { staggerChildren: 0.12 } } };
@@ -79,7 +70,7 @@ export default function Products() {
         </motion.div>
 
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6 lg:gap-7"
+          className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-7"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

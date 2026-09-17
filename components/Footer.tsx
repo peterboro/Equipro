@@ -7,7 +7,7 @@ const quickLinks = [
   { label: "About Us", href: "/about-us" },
   { label: "Services", href: "/services" },
   { label: "Products", href: "/products" },
-  { label: "Clients", href: "/clients" },
+  { label: "Projects", href: "/clients" },
   { label: "Blog / News", href: "/blog-news" },
   { label: "Contact", href: "/contact" },
 ];
@@ -18,7 +18,6 @@ const serviceLinks = [
   { label: "Freon Refrigeration Systems", href: "/services/freon-refrigeration-systems-kenya" },
   { label: "HVAC Systems", href: "/services/hvac-systems-kenya" },
   { label: "Industrial Refrigeration", href: "/services/industrial-refrigeration" },
-  { label: "Stainless Steel Water Tanks", href: "/products/stainless-steel-water-tanks" },
 ];
 
 export default function Footer() {
@@ -40,7 +39,7 @@ export default function Footer() {
             </Link>
             <p className="text-white font-semibold text-sm mb-1 mt-3">Power You Can Trust</p>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
-              HVAC, industrial refrigeration, facility maintenance, mechanical and electrical services in Nairobi, Kenya.
+              Commercial and industrial refrigeration and HVAC. Design, supply, installation, commissioning and maintenance from Nairobi, Kenya.
             </p>
             <div className="space-y-1 text-xs text-gray-500 mb-5 border-l-2 pl-3" style={{ borderColor: "#55b7e5" }}>
               <p>NCA: Refrigeration and Electrical - Grade 5</p>

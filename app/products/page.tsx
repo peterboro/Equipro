@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Products | Equipro Investments — Refrigeration & HVAC Equipment Kenya",
-  description: "Industrial refrigeration technologies, compressors, condensers, evaporators, cold room equipment and packaging machinery — Equipro Kenya.",
+  description: "Industrial refrigeration technologies, compressors, condensers, evaporators, cold room equipment and refrigerants — Equipro Kenya.",
 };
 
 const products = [
@@ -58,22 +58,6 @@ const products = [
     description: "Cold room panels, doors and floor heating systems for complete cold storage facility construction. High-performance insulation and durable access solutions.",
     href: "/products/cold-room-equipment",
     image: "/images/floor-heating-installation.jpeg",
-    icon: "",
-  },
-  {
-    title: "Stainless Steel Water Tanks",
-    subtitle: "Storage | Tower Tanks | Fabrication",
-    description: "Stainless steel water storage tanks, tower tanks and support structures for reliable utility water systems in commercial and industrial facilities.",
-    href: "/products/stainless-steel-water-tanks",
-    image: "/images/stainless-steel-water-tower-tanks.jpeg",
-    icon: "",
-  },
-  {
-    title: "Packaging Equipment",
-    subtitle: "Machinery · Inkjet · Materials",
-    description: "Packaging equipment supply for food processing and agricultural operations. Inkjet coding systems, seed packaging machines and associated consumables.",
-    href: "/products/packaging-equipment",
-    image: "/images/gallery/equipro-project-58.jpg",
     icon: "",
   },
 ];

@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Contact Us | Equipro Investments (K) Ltd",
-  description: "Contact Equipro Investments in Nairobi, Kenya. HVAC, industrial refrigeration and facility maintenance enquiries. Call 0722-101946 / 0722-514226.",
+  description: "Contact Equipro Investments in Nairobi, Kenya. Commercial and industrial refrigeration and HVAC enquiries. Call 0722-101946 / 0722-514226.",
 };
 
 export default function ContactPage() {
@@ -15,7 +15,7 @@ export default function ContactPage() {
       <Navbar />
       <PageHero
         title="Contact Us"
-        subtitle="Speak with our team about your HVAC, refrigeration or facility maintenance project."
+        subtitle="Speak with our team about your refrigeration, cold room or HVAC project, or maintenance requirements."
         breadcrumbs={[{ label: "Contact" }]}
         image="/images/gallery/equipro-project-56.jpg"
       />
@@ -70,48 +70,52 @@ export default function ContactPage() {
                 <input type="hidden" name="_subject" value="New Equipro Website Quote Request" />
                 <input type="hidden" name="_template" value="table" />
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://equipro.vercel.app/contact/thank-you" />
+                <input type="hidden" name="_next" value="https://www.equiprogroup.com/contact/thank-you" />
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1.5">Full Name *</label>
-                    <input type="text" name="Full Name" required placeholder="Your full name"
+                    <label htmlFor="full-name" className="block text-sm font-medium text-gray-700 mb-1.5">Full Name *</label>
+                    <input type="text" id="full-name" name="Full Name" required placeholder="Your full name"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1.5">Company Name</label>
-                    <input type="text" name="Company Name" placeholder="Your company"
+                    <label htmlFor="company-name" className="block text-sm font-medium text-gray-700 mb-1.5">Company Name</label>
+                    <input type="text" id="company-name" name="Company Name" placeholder="Your company"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                 </div>
                 <div className="grid md:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1.5">Email Address *</label>
-                    <input type="email" name="Email Address" required placeholder="your@email.com"
+                    <label htmlFor="email-address" className="block text-sm font-medium text-gray-700 mb-1.5">Email Address *</label>
+                    <input type="email" id="email-address" name="Email Address" required placeholder="your@email.com"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-700 mb-1.5">Phone Number</label>
-                    <input type="tel" name="Phone Number" placeholder="+254 7XX XXX XXX"
+                    <label htmlFor="phone-number" className="block text-sm font-medium text-gray-700 mb-1.5">Phone Number</label>
+                    <input type="tel" id="phone-number" name="Phone Number" placeholder="+254 7XX XXX XXX"
                       className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all" />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Service Required</label>
-                  <select name="Service Required" className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all">
+                  <label htmlFor="service-required" className="block text-sm font-medium text-gray-700 mb-1.5">Service Required</label>
+                  <select id="service-required" name="Service Required" className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all">
                     <option value="">Select a service...</option>
+                    <option>Commercial Refrigeration</option>
                     <option>Industrial Refrigeration</option>
+                    <option>Cold Rooms & Freezer Rooms</option>
                     <option>HVAC Systems</option>
-                    <option>Facility Maintenance</option>
-                    <option>Electrical Services</option>
+                    <option>Refrigeration & HVAC Maintenance</option>
                     <option>PLC & Automation</option>
                     <option>Remote Monitoring & Control</option>
-                    <option>Packaging Line Services</option>
                     <option>General Enquiry</option>
                   </select>
                 </div>
+                <div className="grid md:grid-cols-2 gap-5">
+                  <div><label htmlFor="project-location" className="block text-sm font-medium text-gray-700 mb-1.5">Project Location</label><input id="project-location" name="Project Location" placeholder="Town / city and country" className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm" /></div>
+                  <div><label htmlFor="facility-type" className="block text-sm font-medium text-gray-700 mb-1.5">Facility Type</label><input id="facility-type" name="Facility Type" placeholder="e.g. factory, supermarket, cold store" className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm" /></div>
+                </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1.5">Message *</label>
-                  <textarea name="Message" required rows={6} placeholder="Describe your project requirements or question..."
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1.5">Message *</label>
+                  <textarea id="message" name="Message" required rows={6} placeholder="Describe your project requirements or question..."
                     className="w-full px-4 py-3 bg-white border border-gray-200 rounded-xl text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#111827]/20 focus:border-[#111827] transition-all resize-none" />
                 </div>
                 <button type="submit"

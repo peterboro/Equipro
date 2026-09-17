@@ -6,13 +6,13 @@ import Link from "next/link";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 const allServices = [
+  { title: "All Refrigeration", href: "/services/refrigeration" },
+  { title: "Cold Rooms & Freezer Rooms", href: "/services/cold-room-installation-kenya" },
   { title: "Industrial Refrigeration", href: "/services/industrial-refrigeration" },
   { title: "HVAC Systems", href: "/services/hvac-systems" },
-  { title: "Facility Maintenance", href: "/services/facility-maintenance" },
-  { title: "Electrical Services", href: "/services/electrical-services" },
+  { title: "Refrigeration & HVAC Maintenance", href: "/services/facility-maintenance" },
   { title: "PLC & Automation", href: "/services/plc-automation" },
   { title: "Remote Monitoring & Control", href: "/services/remote-monitoring" },
-  { title: "Packaging Line Services", href: "/services/packaging" },
 ];
 
 interface ServiceDetailProps {

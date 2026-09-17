@@ -11,14 +11,14 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Diversified Expertise",
-    description: "Diversified business interests spanning refrigeration, HVAC, electrical, automation and packaging — a one-stop engineering partner.",
+    title: "Complete Project Delivery",
+    description: "One team for refrigeration and HVAC design, equipment supply, installation, commissioning and ongoing maintenance.",
     color: "#111827",
   },
   {
     icon: Shield,
     title: "On Time, Within Budget",
-    description: "Our professional approach to all project types ensures successful completion on time and within budget — every time.",
+    description: "We plan around your operational requirements, programme and budget, with clear coordination throughout delivery.",
     color: "#374151",
   },
   {

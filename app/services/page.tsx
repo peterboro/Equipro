@@ -3,57 +3,21 @@ import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 import PageHero from "@/components/ui/PageHero";
 import Link from "next/link";
-import { ArrowRight, Snowflake, Wind, Wrench, Zap, Monitor, Package } from "lucide-react";
+import { ArrowRight, Snowflake, Wind, Wrench, Monitor } from "lucide-react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Services | Equipro Investments — HVAC & Refrigeration Kenya",
-  description: "Complete refrigeration solutions from project design to repair & maintenance. Industrial refrigeration, HVAC, electrical, PLC automation and packaging services.",
+  description: "Commercial and industrial refrigeration and HVAC: design, supply, installation, commissioning, maintenance and system monitoring.",
 };
 
 const services = [
-  {
-    icon: Snowflake,
-    title: "Industrial Refrigeration Solutions",
-    description: "Equipro has proven its reputation with successful turnkey refrigeration projects. We offer project design, installation of Freon, NH3 and CO2 (R744) systems, commissioning and 24/7 maintenance and repair. We determine energy and capacity demand, coordinate refrigeration installation with other HVAC equipment, and manage construction through the full life cycle.",
-    href: "/services/industrial-refrigeration",
-    image: "/images/gallery/equipro-project-62.jpg",
-  },
-  {
-    icon: Wind,
-    title: "HVAC Systems",
-    description: "Heating, ventilation and air conditioning systems designed, supplied, installed and maintained for commercial, industrial and residential environments. Server room air conditioning, split units, centralised HVAC and inverter systems.",
-    href: "/services/hvac-systems",
-    image: "/images/gallery/equipro-project-08.jpg",
-  },
-  {
-    icon: Wrench,
-    title: "Facility Maintenance",
-    description: "Comprehensive mechanical and electrical facility maintenance services. Boiler and steam line installation and maintenance, kitchen equipment maintenance, and full site engineering services to keep your facility running at peak performance.",
-    href: "/services/facility-maintenance",
-    image: "/images/gallery/equipro-project-34.jpg",
-  },
-  {
-    icon: Zap,
-    title: "Electrical Services",
-    description: "NCA 5 registered electrical contractor. Generator installations and maintenance, inverter maintenance, electrical panel installation, wiring and all associated electrical works for industrial and commercial facilities.",
-    href: "/services/electrical-services",
-    image: "/images/gallery/equipro-project-59.jpg",
-  },
-  {
-    icon: Monitor,
-    title: "PLC & Automation Systems",
-    description: "PLC and automation systems provide instant monitoring of all parameters in the refrigeration system. Remote monitoring and control, SCADA integration, remote diagnostics and optimisation according to target energy values.",
-    href: "/services/plc-automation",
-    image: "/images/gallery/equipro-project-14.jpg",
-  },
-  {
-    icon: Package,
-    title: "Packaging Line Services",
-    description: "Packaging materials and packaging equipment supply, installation and maintenance. Inkjet supply, installation and maintenance services. Seed packaging materials and machines supply, installation and maintenance.",
-    href: "/services/packaging",
-    image: "/images/gallery/equipro-project-57.jpg",
-  },
+  { icon: Snowflake, title: "Refrigeration", description: "Commercial and industrial refrigeration, from equipment supply and installation to complete systems, commissioning and maintenance.", href: "/services/refrigeration", image: "/images/gallery/equipro-project-62.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Wind, title: "HVAC Systems", description: "Heating, ventilation and air conditioning for commercial and industrial facilities. Design, supply, installation, commissioning and maintenance.", href: "/services/hvac-systems-kenya", image: "/images/gallery/equipro-project-08.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Snowflake, title: "Cold Rooms & Freezer Rooms", description: "Complete cold storage solutions with insulated panels, doors, refrigeration equipment and controls, designed around your storage requirements.", href: "/services/cold-room-installation-kenya", image: "/images/gallery/equipro-project-51.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Wrench, title: "Refrigeration & HVAC Maintenance", description: "Planned servicing, fault diagnosis and repairs to protect system performance and minimise operational downtime.", href: "/services/facility-maintenance", image: "/images/gallery/equipro-project-34.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Monitor, title: "System Controls & Automation", description: "Integrated refrigeration controls, PLC automation and system optimisation for dependable temperature control.", href: "/services/plc-automation", image: "/images/gallery/equipro-project-14.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Monitor, title: "Remote Monitoring", description: "Monitor cooling performance, receive system alerts and support diagnosis across your refrigeration and HVAC installation.", href: "/services/remote-monitoring", image: "/images/gallery/equipro-project-56.jpg", color: "from-sky-500 to-slate-700" }
 ];
 
 export default function ServicesPage() {
@@ -77,7 +41,7 @@ export default function ServicesPage() {
               { label: "Commissioning", icon: "✅" },
               { label: "Maintenance & Repair", icon: "🛠️" },
               { label: "Remote Monitoring", icon: "📡" },
-              { label: "Custom Manufacturing", icon: "⚙️" },
+              { label: "Equipment Supply", icon: "⚙️" },
             ].map((s) => (
               <div key={s.label} className="text-center p-4 bg-white/8 rounded-xl border border-white/10">
                 <div className="text-2xl mb-2">{s.icon}</div>

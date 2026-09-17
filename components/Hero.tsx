@@ -6,12 +6,12 @@ import Link from "next/link";
 const highlights = [
   { icon: Snowflake, label: "Industrial Refrigeration" },
   { icon: Wind, label: "HVAC Systems" },
-  { icon: Wrench, label: "Facility Maintenance" },
+  { icon: Wrench, label: "Cold Rooms & Freezer Rooms" },
 ];
 
 const stats = [
   { num: "2007", label: "Established" },
-  { num: "16+", label: "Years Experience" },
+  { num: "Full", label: "Project Delivery" },
   { num: "NCA 5", label: "Registered" },
   { num: "EPRA B", label: "Class B Certificate" },
   { num: "24/7", label: "Support Available" },
@@ -65,12 +65,12 @@ export default function Hero() {
 
             <h1
               className="font-bold text-white leading-[1.05] mb-6"
-              style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "-0.02em", fontSize: "clamp(52px, 7vw, 84px)" }}
+              style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: "-0.02em", fontSize: "clamp(38px, 5vw, 68px)" }}
             >
-              Power You
+              Commercial & Industrial
               <br />
               <span style={{ background: "linear-gradient(135deg, #55b7e5, #8fd4f1)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>
-                Can Trust
+                Refrigeration & HVAC Solutions
               </span>
             </h1>
 
@@ -81,7 +81,7 @@ export default function Hero() {
               className="text-white leading-relaxed mb-7 max-w-xl"
               style={{ fontSize: "clamp(14px, 1.8vw, 17px)", textShadow: "0 1px 18px rgba(0,0,0,0.42)" }}
             >
-              Equipro Investments (K) Ltd — specialist contractors in Heating, Refrigeration, Ventilation, Air Conditioning (HVAC) and Facility Maintenance Mechanical & Electrical Services.
+              From design and equipment supply to installation, commissioning and ongoing maintenance, Equipro delivers complete refrigeration and HVAC solutions for your facility.
             </motion.p>
 
             <motion.div
@@ -105,15 +105,15 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.65 }}
               className="flex flex-row flex-wrap gap-4 items-center"
             >
-              <Link href="/services"
+              <Link href="/contact"
                 className="inline-flex items-center gap-2 font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 shadow-lg text-sm text-white hover:opacity-90"
                 style={{ background: "#55b7e5" }}>
-                Our Services <ArrowRight size={15} />
+                Request a Quote <ArrowRight size={15} />
               </Link>
               <Link href="/contact"
                 className="inline-flex items-center gap-2 font-semibold px-7 py-3.5 rounded-xl transition-all duration-200 text-sm text-white hover:bg-white/10"
                 style={{ border: "1.5px solid rgba(255,255,255,0.55)", background: "rgba(17,24,39,0.34)", backdropFilter: "blur(8px)" }}>
-                Get a Quote
+                Discuss Your Project
               </Link>
             </motion.div>
           </motion.div>

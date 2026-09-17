@@ -3,7 +3,7 @@ import "./globals.css";
 
 const siteUrl = "https://equiprogroup.com";
 const siteDescription =
-  "Equipro Investments (K) Ltd provides HVAC systems, cold room installation, industrial refrigeration, ammonia/NH3, CO2/R744 and Freon refrigeration systems, facility maintenance, mechanical/electrical services and stainless steel water tanks in Kenya.";
+  "Equipro Investments (K) Ltd provides HVAC systems, cold room installation, industrial refrigeration, ammonia/NH3, CO2/R744 and Freon refrigeration systems, design, equipment supply, installation, commissioning and maintenance in Kenya.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   keywords:
-    "HVAC systems Kenya, HVAC contractors Nairobi, cold room installation Kenya, coldrooms Kenya, industrial refrigeration Kenya, ammonia refrigeration Kenya, CO2 refrigeration Kenya, Freon systems Kenya, Freon gases Kenya, stainless steel water tanks Kenya, refrigeration contractor Nairobi, Equipro Group",
+    "HVAC systems Kenya, HVAC contractors Nairobi, cold room installation Kenya, coldrooms Kenya, industrial refrigeration Kenya, ammonia refrigeration Kenya, CO2 refrigeration Kenya, Freon systems Kenya, Freon gases Kenya, refrigeration contractor Nairobi, Equipro Group",
   alternates: {
     canonical: "/",
   },
@@ -100,10 +100,7 @@ const structuredData = {
     "ammonia refrigeration",
     "CO2 refrigeration",
     "Freon refrigeration systems",
-    "facility maintenance",
-    "electrical services",
-    "mechanical services",
-    "stainless steel water tanks",
+    "refrigeration and HVAC maintenance",
   ],
 };
 

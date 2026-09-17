@@ -58,7 +58,6 @@ const allProducts = [
   { title: "Condensers", href: "/products/condensers" },
   { title: "Evaporators & Glycol Coolers", href: "/products/evaporators" },
   { title: "Cold Room Equipment", href: "/products/cold-room-equipment" },
-  { title: "Packaging Equipment", href: "/products/packaging-equipment" },
 ];
 
 export default function FreonGasesPage() {

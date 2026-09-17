@@ -1,3 +1,4 @@
+import ProjectDelivery from "@/components/ProjectDelivery";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
@@ -16,11 +17,12 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Products />
-        <About />
         <Services />
-        <WhyUs />
+        <ProjectDelivery />
         <Gallery />
+        <About />
+        <WhyUs />
+        <Products />
         <Clients />
         <Blog />
         <CTA />

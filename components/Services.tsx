@@ -1,51 +1,15 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowRight, Snowflake, Wind, Wrench, Zap, Monitor, Package } from "lucide-react";
+import { ArrowRight, Snowflake, Wind, Wrench, Monitor } from "lucide-react";
 import Link from "next/link";
 
 const services = [
-  {
-    icon: Snowflake,
-    title: "Industrial Refrigeration",
-    description: "Complete turnkey industrial refrigeration solutions — project design, installation, commissioning and 24/7 maintenance using Freon, NH3 and CO2 (R744) technologies.",
-    href: "/services/industrial-refrigeration",
-    color: "from-slate-500 to-slate-800",
-  },
-  {
-    icon: Wind,
-    title: "HVAC Systems",
-    description: "Heating, ventilation and air conditioning systems for commercial, industrial and residential applications. Supply, installation and maintenance.",
-    href: "/services/hvac-systems",
-    color: "from-sky-400 to-sky-600",
-  },
-  {
-    icon: Wrench,
-    title: "Facility Maintenance",
-    description: "Comprehensive mechanical and electrical facility maintenance services. Proactive maintenance programs to minimise downtime and protect your assets.",
-    href: "/services/facility-maintenance",
-    color: "from-sky-500 to-sky-700",
-  },
-  {
-    icon: Zap,
-    title: "Electrical Services",
-    description: "NCA 5 registered electrical contractor offering installation, maintenance and repair of electrical systems for industrial and commercial facilities.",
-    href: "/services/electrical-services",
-    color: "from-slate-400 to-slate-600",
-  },
-  {
-    icon: Monitor,
-    title: "PLC & Automation",
-    description: "PLC and automation systems for instant monitoring of all refrigeration data. Parameter measurement and system optimisation for reliable, efficient operation.",
-    href: "/services/plc-automation",
-    color: "from-sky-400 to-slate-700",
-  },
-  {
-    icon: Package,
-    title: "Packaging Line Services",
-    description: "Packaging materials, packaging equipment supply, installation and maintenance. Inkjet supply, installation and maintenance services for production lines.",
-    href: "/services/packaging",
-    color: "from-slate-500 to-slate-700",
-  },
+  { icon: Snowflake, title: "Refrigeration", description: "Commercial and industrial refrigeration, from equipment supply and installation to complete systems, commissioning and maintenance.", href: "/services/refrigeration", image: "/images/gallery/equipro-project-62.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Wind, title: "HVAC Systems", description: "Heating, ventilation and air conditioning for commercial and industrial facilities. Design, supply, installation, commissioning and maintenance.", href: "/services/hvac-systems-kenya", image: "/images/gallery/equipro-project-08.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Snowflake, title: "Cold Rooms & Freezer Rooms", description: "Complete cold storage solutions with insulated panels, doors, refrigeration equipment and controls, designed around your storage requirements.", href: "/services/cold-room-installation-kenya", image: "/images/gallery/equipro-project-51.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Wrench, title: "Refrigeration & HVAC Maintenance", description: "Planned servicing, fault diagnosis and repairs to protect system performance and minimise operational downtime.", href: "/services/facility-maintenance", image: "/images/gallery/equipro-project-34.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Monitor, title: "System Controls & Automation", description: "Integrated refrigeration controls, PLC automation and system optimisation for dependable temperature control.", href: "/services/plc-automation", image: "/images/gallery/equipro-project-14.jpg", color: "from-sky-500 to-slate-700" },
+  { icon: Monitor, title: "Remote Monitoring", description: "Monitor cooling performance, receive system alerts and support diagnosis across your refrigeration and HVAC installation.", href: "/services/remote-monitoring", image: "/images/gallery/equipro-project-56.jpg", color: "from-sky-500 to-slate-700" }
 ];
 
 const containerVariants = { hidden: {}, visible: { transition: { staggerChildren: 0.1 } } };

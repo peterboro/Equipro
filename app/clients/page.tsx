@@ -8,39 +8,19 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Clients | Equipro Investments — Our Track Record",
-  description: "Equipro's client portfolio spans food processing, pharmaceuticals, agriculture, government and cold storage sectors across Kenya, Nigeria, Tanzania, and Ivory Coast.",
+  description: "Equipro's client portfolio spans food processing, agriculture, manufacturing and cold storage sectors across Kenya, Nigeria, Tanzania, and Ivory Coast.",
 };
 
 const clients = [
   {
-    name: "NAS (Ennsvalley Bakery Ltd)", initials: "NAS", sector: "Food & Bakery",
-    localLogo: "/images/logos/ennsvalleybakery.jpg",
-    services: ["Engineering Services", "Packaging Line Maintenance", "Inkjet (Videojet) Supply, Installation & Maintenance"],
-  },
-  {
-    name: "Norbrook Kenya Ltd", initials: "NBK", sector: "Pharmaceuticals",
-    localLogo: "/images/logos/norbrook.png",
-    services: ["Engineering Services", "Packaging Line Maintenance", "Inkjet (Videojet) Supply, Installation & Maintenance"],
-  },
-  {
-    name: "Trufoods Ltd", initials: "TRU", sector: "Food Processing",
-    localLogo: "/images/logos/trufoods.png",
-    services: ["Engineering Services", "Packaging Line Maintenance", "Inkjet (Videojet) Supply, Installation & Maintenance"],
-  },
-  {
-    name: "Interconsumer Products Ltd", initials: "ICP", sector: "FMCG",
-    localLogo: "/images/logos/interconsumer.png",
-    services: ["Engineering Services", "Packaging Line Maintenance", "Inkjet (Videojet) Supply, Installation & Maintenance"],
-  },
-  {
     name: "Kibo Seed Company Ltd", initials: "KSC", sector: "Agriculture",
     localLogo: "/images/logos/KiboSeed.jpg",
-    services: ["Cold Rooms, Air Conditioners Supply, Installation & Maintenance", "Generator Installations & Maintenance", "Seed Packaging Machines Supply, Installation & Maintenance"],
+    services: ["Cold Rooms, Air Conditioners Supply, Installation & Maintenance"],
   },
   {
     name: "Simlaw Seeds", initials: "SLS", sector: "Agriculture",
     localLogo: "/images/logos/simlawseeds.png",
-    services: ["Air Conditioners Supply, Installation & Maintenance", "Packaging Line Supply, Installation & Maintenance", "Inkjet (Videojet) Supply, Installation & Maintenance"],
+    services: ["Air Conditioners Supply, Installation & Maintenance"],
   },
   {
     name: "Crown Farms Ltd", initials: "CFL", sector: "Agriculture — Delta State, Nigeria",
@@ -55,12 +35,7 @@ const clients = [
   {
     name: "Glacier Products Ltd (Dairyland)", initials: "GPL", sector: "Cold Storage — Tanzania & Kenya (Ongoing)",
     localLogo: "/images/logos/dairyland.png",
-    services: ["Cold Rooms Installation", "Stainless Steel Tanks Supply & Installation", "HVAC System Installation", "Ammonia / CO2 Cascade Refrigeration System Installation"],
-  },
-  {
-    name: "Don Bosco Utume", initials: "DBU", sector: "Education & Institutional Infrastructure - Kenya",
-    localLogo: "/images/logos/don-bosco-utume.jpeg",
-    services: ["Stainless Steel Water Tanks Supply & Installation", "Rainwater Harvesting System", "Elevated Water Storage Infrastructure"],
+    services: ["Cold Rooms Installation", "HVAC System Installation", "Ammonia / CO2 Cascade Refrigeration System Installation"],
   },
   {
     name: "White Field Agroprocessing Ltd", initials: "WFA", sector: "Cold Storage — Kano State, Nigeria (Complete)",
@@ -228,43 +203,6 @@ const ongoingProjects = [
     ],
   },
   {
-    client: "Don Bosco Utume",
-    project: "Stainless Steel Water Storage & Rainwater Harvesting",
-    status: "Completed Project",
-    summary:
-      "Supply and installation of elevated stainless steel water tanks and supporting tower structures, integrated with rainwater-harvesting infrastructure to strengthen on-site water storage. The system provides durable, hygienic reserve capacity together with safe access for inspection and maintenance.",
-    features: [
-      "Stainless Steel Water Tanks",
-      "Rainwater Harvesting",
-      "Elevated Tower Structures",
-      "Structural Support Works",
-      "Safe Maintenance Access",
-    ],
-    cover: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-01.jpeg",
-    images: [
-      {
-        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-01.jpeg",
-        alt: "Installed stainless steel water storage tank at Don Bosco Utume",
-      },
-      {
-        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-02.jpeg",
-        alt: "Completed elevated stainless steel water tanks and access towers at Don Bosco Utume",
-      },
-      {
-        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-03.jpeg",
-        alt: "Twin elevated stainless steel water tanks supporting the rainwater harvesting system",
-      },
-      {
-        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-04.jpeg",
-        alt: "Steel tower structures prepared for the Don Bosco Utume water tank installation",
-      },
-      {
-        src: "/images/projects/don-bosco-utume-water-system/don-bosco-water-system-05.jpeg",
-        alt: "Elevated tank platform and structural installation works at Don Bosco Utume",
-      },
-    ],
-  },
-  {
     client: "Glacier Products Ltd (Dairyland)",
     project: "Arusha Bonite, Tanzania",
     status: "Ongoing Project",
@@ -382,7 +320,7 @@ export default function ClientsPage() {
     <>
       <Navbar />
       <PageHero
-        title="Our Clients"
+        title="Refrigeration & HVAC Projects"
         subtitle="A proven track record across food processing, pharmaceuticals, agriculture, government and industrial cold storage — Kenya and beyond."
         breadcrumbs={[{ label: "Clients" }]}
         image="/images/gallery/equipro-project-10.jpg"
@@ -393,8 +331,8 @@ export default function ClientsPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-2 gap-x-4 gap-y-8 text-center md:grid-cols-4 md:gap-8">
             {[
-              { num: "15+", label: "Major Clients" },
-              { num: "16+", label: "Years Track Record" },
+              { num: "8", label: "Major Clients" },
+              { num: "2007", label: "Established" },
               { num: "Multi-sector", label: "Industry Coverage" },
               { num: "Regional Projects", label: "Work delivered across Kenya, Nigeria, Tanzania & Ivory Coast" },
             ].map((s) => (
